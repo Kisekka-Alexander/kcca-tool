@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include kstool *.css
+recursive-include kstool *.csv
+recursive-include kstool *.html
+recursive-include kstool *.ico
+recursive-include kstool *.js
+recursive-include kstool *.json
+recursive-include kstool *.md
+recursive-include kstool *.png
+recursive-include kstool *.py
+recursive-include kstool *.svg
+recursive-include kstool *.txt
+recursive-exclude kstool *.pyc
