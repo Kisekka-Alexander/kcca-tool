@@ -1,0 +1,158 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:SR-{MM}-{###$}",
+ "creation": "2022-01-07 03:46:16.151748",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "school_identification_section",
+  "district",
+  "municipality",
+  "division",
+  "column_break_6",
+  "ward",
+  "school",
+  "physical_address",
+  "amended_from",
+  "section_break_10",
+  "po_box_town",
+  "email_address",
+  "website_address",
+  "contact_telephone",
+  "column_break_15",
+  "fax_number",
+  "min_pub_service_code",
+  "licence_no",
+  "uneb_center_code"
+ ],
+ "fields": [
+  {
+   "fieldname": "school_identification_section",
+   "fieldtype": "Section Break",
+   "label": "School Identification"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "municipality",
+   "fieldtype": "Data",
+   "label": "Municipality"
+  },
+  {
+   "fieldname": "division",
+   "fieldtype": "Data",
+   "label": "Division"
+  },
+  {
+   "fieldname": "ward",
+   "fieldtype": "Data",
+   "label": "Ward"
+  },
+  {
+   "fieldname": "school",
+   "fieldtype": "Data",
+   "label": "School"
+  },
+  {
+   "fieldname": "physical_address",
+   "fieldtype": "Data",
+   "label": "Physical Address"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Statistical Returns",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "po_box_town",
+   "fieldtype": "Data",
+   "label": "P.O Box Town"
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address",
+   "options": "Email"
+  },
+  {
+   "fieldname": "website_address",
+   "fieldtype": "Data",
+   "label": "Website Address",
+   "options": "Name"
+  },
+  {
+   "fieldname": "contact_telephone",
+   "fieldtype": "Data",
+   "label": "Contact Telephone"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fax_number",
+   "fieldtype": "Data",
+   "label": "Fax Number"
+  },
+  {
+   "fieldname": "min_pub_service_code",
+   "fieldtype": "Data",
+   "label": "Min Pub Service Code"
+  },
+  {
+   "fieldname": "licence_no",
+   "fieldtype": "Data",
+   "label": "Reg/Licence No."
+  },
+  {
+   "fieldname": "uneb_center_code",
+   "fieldtype": "Data",
+   "label": "UNEB Center Code"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-01-07 03:59:52.281105",
+ "modified_by": "Administrator",
+ "module": "KCCA School Tool",
+ "name": "Statistical Returns",
+ "name_case": "UPPER CASE",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
