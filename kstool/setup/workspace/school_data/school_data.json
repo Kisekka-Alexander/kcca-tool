@@ -1,0 +1,31 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"School Data\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Secondary Schools Statistical Returns\",\"col\":4}}]",
+ "creation": "2022-01-07 05:15:32.878860",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "list_alt",
+ "idx": 0,
+ "label": "School Data",
+ "links": [],
+ "modified": "2022-01-07 05:17:27.730653",
+ "modified_by": "Administrator",
+ "module": "Setup",
+ "name": "School Data",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "roles": [],
+ "sequence_id": 1,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Secondary Schools Statistical Returns",
+   "link_to": "Statistical Returns",
+   "type": "DocType"
+  }
+ ],
+ "title": "School Data"
+}
