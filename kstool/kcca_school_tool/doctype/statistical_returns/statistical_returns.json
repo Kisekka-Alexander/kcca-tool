@@ -25,43 +25,61 @@
   "fax_number",
   "min_pub_service_code",
   "licence_no",
-  "uneb_center_code"
+  "uneb_center_code",
+  "section_b_school_particulars",
+  "status_of_operation",
+  "founding_body",
+  "source_of_funding",
+  "column_break_24",
+  "school_type",
+  "dayboarding_school",
+  "registry_status"
  ],
  "fields": [
   {
    "fieldname": "school_identification_section",
    "fieldtype": "Section Break",
-   "label": "School Identification"
+   "label": "Section A: School Identification"
   },
   {
    "fieldname": "district",
    "fieldtype": "Data",
-   "label": "District"
+   "in_list_view": 1,
+   "label": "District",
+   "reqd": 1
   },
   {
    "fieldname": "municipality",
    "fieldtype": "Data",
-   "label": "Municipality"
+   "in_list_view": 1,
+   "label": "Municipality",
+   "reqd": 1
   },
   {
    "fieldname": "division",
    "fieldtype": "Data",
-   "label": "Division"
+   "in_list_view": 1,
+   "label": "Division",
+   "reqd": 1
   },
   {
    "fieldname": "ward",
    "fieldtype": "Data",
-   "label": "Ward"
+   "in_list_view": 1,
+   "label": "Ward",
+   "reqd": 1
   },
   {
    "fieldname": "school",
    "fieldtype": "Data",
-   "label": "School"
+   "label": "School",
+   "reqd": 1
   },
   {
    "fieldname": "physical_address",
    "fieldtype": "Data",
-   "label": "Physical Address"
+   "label": "Physical Address",
+   "reqd": 1
   },
   {
    "fieldname": "amended_from",
@@ -70,7 +88,8 @@
    "no_copy": 1,
    "options": "Statistical Returns",
    "print_hide": 1,
-   "read_only": 1
+   "read_only": 1,
+   "reqd": 1
   },
   {
    "fieldname": "column_break_6",
@@ -83,7 +102,8 @@
   {
    "fieldname": "po_box_town",
    "fieldtype": "Data",
-   "label": "P.O Box Town"
+   "label": "P.O Box Town",
+   "reqd": 1
   },
   {
    "fieldname": "email_address",
@@ -100,7 +120,8 @@
   {
    "fieldname": "contact_telephone",
    "fieldtype": "Data",
-   "label": "Contact Telephone"
+   "label": "Contact Telephone",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_15",
@@ -125,12 +146,64 @@
    "fieldname": "uneb_center_code",
    "fieldtype": "Data",
    "label": "UNEB Center Code"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_b_school_particulars",
+   "fieldtype": "Section Break",
+   "label": "Section B: School Particulars"
+  },
+  {
+   "fieldname": "status_of_operation",
+   "fieldtype": "Select",
+   "label": "Status of Operation",
+   "options": "Goverrment\nPrivate",
+   "reqd": 1
+  },
+  {
+   "fieldname": "founding_body",
+   "fieldtype": "Select",
+   "label": "Founding Body",
+   "options": "Government\nIslamic\nCOU\nCatholic\nSDA\nCommunity\nEntrepreneurs\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "source_of_funding",
+   "fieldtype": "Select",
+   "label": "Source of funding",
+   "options": "Government\nNot Government Aided",
+   "reqd": 1
+  },
+  {
+   "fieldname": "school_type",
+   "fieldtype": "Select",
+   "label": "School Type",
+   "options": "Co-education(mixed)\nBoys only\nGirls only",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dayboarding_school",
+   "fieldtype": "Select",
+   "label": "Day/Boarding school",
+   "options": "Day school\nPartly boarding\nFull boarding",
+   "reqd": 1
+  },
+  {
+   "fieldname": "registry_status",
+   "fieldtype": "Select",
+   "label": "Registry Status",
+   "options": "Licensed\nRegistered\nNot Licensed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_24",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-01-07 03:59:52.281105",
+ "modified": "2022-01-07 04:20:26.697738",
  "modified_by": "Administrator",
  "module": "KCCA School Tool",
  "name": "Statistical Returns",
