@@ -8,32 +8,39 @@
  "engine": "InnoDB",
  "field_order": [
   "school_identification_section",
+  "school",
   "district",
   "municipality",
   "division",
-  "column_break_6",
   "ward",
-  "school",
-  "physical_address",
+  "column_break_6",
   "amended_from",
-  "section_break_10",
+  "physical_address",
   "po_box_town",
   "email_address",
   "website_address",
   "contact_telephone",
   "column_break_15",
   "fax_number",
-  "min_pub_service_code",
   "licence_no",
+  "min_pub_service_code",
   "uneb_center_code",
   "section_b_school_particulars",
   "status_of_operation",
   "founding_body",
   "source_of_funding",
-  "column_break_24",
   "school_type",
   "dayboarding_school",
-  "registry_status"
+  "column_break_24",
+  "registry_status",
+  "distance_to_nearest_primary_school",
+  "distance_to_deo_main_office",
+  "number_of_inspections_conducted_by_deo_or_dis_last_year",
+  "column_break_33",
+  "urban_or_rural",
+  "founding_year",
+  "highest_class_in_school",
+  "use_status"
  ],
  "fields": [
   {
@@ -96,10 +103,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "section_break_10",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "po_box_town",
    "fieldtype": "Data",
    "label": "P.O Box Town",
@@ -154,13 +157,6 @@
    "label": "Section B: School Particulars"
   },
   {
-   "fieldname": "status_of_operation",
-   "fieldtype": "Select",
-   "label": "Status of Operation",
-   "options": "Goverrment\nPrivate",
-   "reqd": 1
-  },
-  {
    "fieldname": "founding_body",
    "fieldtype": "Select",
    "label": "Founding Body",
@@ -198,12 +194,71 @@
   {
    "fieldname": "column_break_24",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "distance_to_nearest_primary_school",
+   "fieldtype": "Select",
+   "label": "Distance to Nearest Primary School",
+   "options": "Below 1 km\n1-2 km\n2.1-3 km\n3.1-4 km\n4.1-5 km\nabove 5 km",
+   "reqd": 1
+  },
+  {
+   "fieldname": "distance_to_deo_main_office",
+   "fieldtype": "Select",
+   "label": "Distance to DEO Main office",
+   "options": "Below 10 km\n10-20 km\n20.1-30 km\n30.1-40 km\n40.1-50 km\nAbove 50 km",
+   "reqd": 1
+  },
+  {
+   "fieldname": "number_of_inspections_conducted_by_deo_or_dis_last_year",
+   "fieldtype": "Select",
+   "label": "Number of Inspections Conducted by DEO or DIS Last year",
+   "options": "One\nTwo\nMore than two\nNone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "urban_or_rural",
+   "fieldtype": "Select",
+   "label": "Urban or Rural",
+   "options": "Urban\nPeri-Urban\nRural",
+   "reqd": 1
+  },
+  {
+   "fieldname": "founding_year",
+   "fieldtype": "Data",
+   "label": "Founding Year",
+   "reqd": 1
+  },
+  {
+   "fieldname": "highest_class_in_school",
+   "fieldtype": "Select",
+   "label": "Highest Class in School",
+   "options": "S.1\nS.2\nS.3\nS.4\nS.5\nS.6",
+   "reqd": 1
+  },
+  {
+   "fieldname": "use_status",
+   "fieldtype": "Select",
+   "label": "USE Status",
+   "options": "USE\nNon USE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status_of_operation",
+   "fieldtype": "Select",
+   "label": "Status Of Operation",
+   "options": "Gorvernment\nPrivate",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-01-07 04:20:26.697738",
+ "modified": "2022-01-07 04:48:45.848743",
  "modified_by": "Administrator",
  "module": "KCCA School Tool",
  "name": "Statistical Returns",
