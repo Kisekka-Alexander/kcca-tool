@@ -40,7 +40,9 @@
   "urban_or_rural",
   "founding_year",
   "highest_class_in_school",
-  "use_status"
+  "use_status",
+  "section_c_pupil_information",
+  "enrolment_by_age_gender_class"
  ],
  "fields": [
   {
@@ -253,12 +255,25 @@
    "label": "Status Of Operation",
    "options": "Gorvernment\nPrivate",
    "reqd": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_c_pupil_information",
+   "fieldtype": "Section Break",
+   "label": "Section C: Pupil Information"
+  },
+  {
+   "fieldname": "enrolment_by_age_gender_class",
+   "fieldtype": "Table",
+   "label": "Enrolment by Class, Gender and Age",
+   "options": "Enrollment Class Gender Age",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-01-07 04:48:45.848743",
+ "modified": "2022-01-07 05:03:51.772320",
  "modified_by": "Administrator",
  "module": "KCCA School Tool",
  "name": "Statistical Returns",

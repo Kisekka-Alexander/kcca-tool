@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-01-07 05:01:56.595737",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "age",
+  "gender",
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "age",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Age",
+   "options": "12 or less\n13\n14\n15\n16\n17\n18\n19 and above",
+   "reqd": 1
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Gender",
+   "options": "Male\nFemale",
+   "reqd": 1
+  },
+  {
+   "fieldname": "s1",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "S1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "s2",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "S2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "s3",
+   "fieldtype": "Int",
+   "label": "S3",
+   "reqd": 1
+  },
+  {
+   "fieldname": "s4",
+   "fieldtype": "Int",
+   "label": "S4",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Int",
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-01-07 05:01:56.595737",
+ "modified_by": "Administrator",
+ "module": "KCCA School Tool",
+ "name": "Enrollment Class Gender Age",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
