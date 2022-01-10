@@ -43,7 +43,8 @@
   "highest_class_in_school",
   "use_status",
   "section_c_pupil_information",
-  "enrolment_by_age_gender_class"
+  "enrolment_by_age_gender_class",
+  "status"
  ],
  "fields": [
   {
@@ -269,12 +270,19 @@
    "label": "Enrolment by Class, Gender and Age",
    "options": "Enrollment Class Gender Age",
    "reqd": 1
+  },
+  {
+   "default": "Pending",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Pending\nApproved"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-01-07 05:08:54.714827",
+ "modified": "2022-01-10 09:39:17.049393",
  "modified_by": "Administrator",
  "module": "KCCA School Tool",
  "name": "Statistical Returns",

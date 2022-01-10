@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"School Data\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Secondary Schools Statistical Returns\",\"col\":4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"School Data\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Secondary Schools Statistical Returns\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Submissions\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Schools Info\",\"col\":4}}]",
  "creation": "2022-01-07 05:15:32.878860",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -9,7 +9,7 @@
  "idx": 0,
  "label": "School Data",
  "links": [],
- "modified": "2022-01-07 05:17:27.730653",
+ "modified": "2022-01-10 09:45:39.530919",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "School Data",
@@ -20,10 +20,25 @@
  "sequence_id": 1,
  "shortcuts": [
   {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Schools Info",
+   "link_to": "School",
+   "type": "DocType"
+  },
+  {
    "color": "Grey",
    "doc_view": "New",
    "label": "Secondary Schools Statistical Returns",
    "link_to": "Statistical Returns",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "New Submissions",
+   "link_to": "Statistical Returns",
+   "stats_filter": "{\"status\":[\"=\",\"Pending\"]}",
    "type": "DocType"
   }
  ],
