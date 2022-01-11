@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 import frappe
 
-from frappe import auth, exceptions, _
+from frappe import auth, exceptions
 
 @frappe.whitelist(allow_guest=True)
 def login(usr, pwd):

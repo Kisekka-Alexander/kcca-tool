@@ -7,10 +7,13 @@ app_description = "KCCA School tool"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "info@veritas-interactive.com"
-app_license = "MIT"
+app_license = "MIT",
+app_logo_url = "/assets/kstool/logo.png"
 
 # Includes in <head>
 # ------------------
+
+# brand_html = '<div><img src="tennismart.png"> TennisMart</div>'
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/kstool/css/kstool.css"
@@ -203,4 +206,10 @@ fixtures = [
     # {
     #     "doctype": "Transaction Type",
     # }
-]
+],
+website_context = {
+	"favicon": 	"/assets/kstool/favicon.png",
+	"splash_image": "/assets/kstool/logo.png",
+    "banner_image": "/assets/kstool/logo.png",
+	"footer": "Powered by abby"
+}
