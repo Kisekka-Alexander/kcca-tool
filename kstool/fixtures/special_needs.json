@@ -1,0 +1,32 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Special Needs",
+  "modified": "2022-01-11 12:39:04.473049",
+  "name": "Visual Impairment",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "special_needs_name": "Visual Impairment"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Special Needs",
+  "modified": "2022-01-11 12:39:27.883496",
+  "name": "Hearing Impairment",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "special_needs_name": "Hearing Impairment"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Special Needs",
+  "modified": "2022-01-11 12:39:53.162216",
+  "name": "Physical Impairment",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "special_needs_name": "Physical Impairment"
+ }
+]

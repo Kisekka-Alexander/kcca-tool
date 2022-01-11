@@ -187,4 +187,20 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"kstool.auth.validate"
 # ]
-
+fixtures = [
+     {
+        "doctype": "Role",
+        "filters": {
+            "name" : ["in", "School Headteacher, School Class Teacher"]
+        }
+    }
+    # {
+    #      "doctype": "Special Needs",
+    #      "filters": {
+    #          "name" : ["in", "Visual Impairment, Hearing Impairment, Physical Impairment, Mental Impairment, Learning Impairment, Other"]
+    #      }
+    # },
+    # {
+    #     "doctype": "Transaction Type",
+    # }
+]

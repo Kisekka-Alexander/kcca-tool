@@ -1,2 +1,3 @@
 KCCA School Tool
 Setup
+School

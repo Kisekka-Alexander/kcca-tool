@@ -1,0 +1,148 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-01-11 12:32:40.264231",
+ "description": "Student/Pupil Enrollment",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student_details",
+  "school",
+  "name1",
+  "sex",
+  "date_of_birth",
+  "is_refugee",
+  "nationality",
+  "class",
+  "column_break_7",
+  "stream",
+  "previous_school",
+  "name_of_guardian",
+  "residence",
+  "is_special_needs",
+  "special_needs_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_details",
+   "fieldtype": "Section Break",
+   "label": "Student/Pupil Details"
+  },
+  {
+   "fieldname": "school",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "School",
+   "reqd": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Sex",
+   "options": "Male\nFemale",
+   "reqd": 1
+  },
+  {
+   "depends_on": "eval:(doc.is_refugee== \"Yes\")",
+   "fieldname": "nationality",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Nationality",
+   "mandatory_depends_on": "eval:(doc.is_refugee== \"Yes\")",
+   "options": "Kenya\nRwanda\nSouth Sudan\nSomalia\nEgypt\nBurundi",
+   "reqd": 1
+  },
+  {
+   "fieldname": "class",
+   "fieldtype": "Data",
+   "label": "Class",
+   "reqd": 1
+  },
+  {
+   "fieldname": "stream",
+   "fieldtype": "Data",
+   "label": "Stream"
+  },
+  {
+   "fieldname": "previous_school",
+   "fieldtype": "Data",
+   "label": "Previous School"
+  },
+  {
+   "fieldname": "name_of_guardian",
+   "fieldtype": "Data",
+   "label": "Name of guardian"
+  },
+  {
+   "fieldname": "residence",
+   "fieldtype": "Data",
+   "label": "Residence"
+  },
+  {
+   "depends_on": "eval:(doc.is_special_needs== \"Yes\")",
+   "fieldname": "special_needs_details",
+   "fieldtype": "Table MultiSelect",
+   "label": "Special Needs Details",
+   "mandatory_depends_on": "eval:(doc.is_special_needs== \"Yes\")",
+   "options": "Student Special Needs"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "No",
+   "fieldname": "is_special_needs",
+   "fieldtype": "Select",
+   "label": "Special Needs",
+   "options": "Yes\nNo"
+  },
+  {
+   "default": "No",
+   "fieldname": "is_refugee",
+   "fieldtype": "Select",
+   "label": "Is Refugee",
+   "options": "Yes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-01-11 13:03:35.373207",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "Enrollment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
