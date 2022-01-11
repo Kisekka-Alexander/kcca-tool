@@ -191,7 +191,7 @@ fixtures = [
      {
         "doctype": "Role",
         "filters": {
-            "name" : ["in", "School Headteacher, School Class Teacher"]
+            "name" : ["in", "School Headteacher, School Class Teacher, School Inspector"]
         }
     }
     # {
