@@ -213,4 +213,4 @@ fixtures = [
 #     "banner_image": "/assets/kstool/logo.png",
 # },
 
-after_migrate = "kstool.setup.install.after_migrate"
+# after_migrate = "kstool.setup.install.after_migrate"
