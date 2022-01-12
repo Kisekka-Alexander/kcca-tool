@@ -207,9 +207,10 @@ fixtures = [
     #     "doctype": "Transaction Type",
     # }
 ],
-website_context = {
-	"favicon": 	"/assets/kstool/favicon.png",
-	"splash_image": "/assets/kstool/logo.png",
-    "banner_image": "/assets/kstool/logo.png",
-	"footer": "Powered by abby"
-}
+# website_context = {
+# 	"favicon": 	"/assets/kstool/favicon.png",
+# 	"splash_image": "/assets/kstool/logo.png",
+#     "banner_image": "/assets/kstool/logo.png",
+# },
+
+after_migrate = "kstool.setup.install.after_migrate"

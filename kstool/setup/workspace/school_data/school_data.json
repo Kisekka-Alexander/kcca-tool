@@ -9,14 +9,18 @@
  "idx": 0,
  "label": "School Data",
  "links": [],
- "modified": "2022-01-11 16:25:12.908220",
+ "modified": "2022-01-11 22:05:15.435003",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "School Data",
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
- "roles": [],
+ "roles": [
+  {
+   "role": "School Headteacher Self Service"
+  }
+ ],
  "sequence_id": 1,
  "shortcuts": [
   {
