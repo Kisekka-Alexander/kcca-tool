@@ -191,12 +191,12 @@ app_logo_url = "/assets/kstool/logo.png"
 # 	"kstool.auth.validate"
 # ]
 fixtures = [
-     {
-        "doctype": "Role",
-        "filters": {
-            "name" : ["in", "School Headteacher, School Class Teacher, School Inspector"]
-        }
-    }
+    #  {
+    #     "doctype": "Role",
+    #     "filters": {
+    #         "name" : ["in", "School Headteacher, School Class Teacher, School Inspector"]
+    #     }
+    # }
     # {
     #      "doctype": "Special Needs",
     #      "filters": {
