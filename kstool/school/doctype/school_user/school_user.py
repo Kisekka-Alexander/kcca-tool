@@ -10,6 +10,10 @@ class SchoolUser(Document):
     def after_insert(self):
         school_user = frappe.get_doc("School User", self.name)
 
+        if self.role == "School Headteacher":
+            user_type = 'Headteacher Self Service'
+        else:
+            user_type = 'Class Teach Self Service'
         if not frappe.db.exists("User", {
             'email': school_user.email
         }):
@@ -18,14 +22,15 @@ class SchoolUser(Document):
                 email=school_user.email,
                 first_name=school_user.name,
                 enabled=1,
-                mobile_no=school_user.phone_number
+                mobile_no=school_user.phone_number,
+                user_type=user_type,
             ))
 
             user.flags.ignore_permissions = True
             user.flags.ignore_password_policy = True
             user.flags.no_welcome_mail = True
 
-            self.append_role(user, self.role)
+            # self.append_role(user, self.role)
 
             user.insert()
 
