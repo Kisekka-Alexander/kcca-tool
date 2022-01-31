@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:PERF-{SCH}-{YY}-{###}",
- "creation": "2022-01-14 10:46:26.776143",
+ "creation": "2022-01-20 11:11:36.302256",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -23,7 +23,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "School",
-   "options": "School Detail",
+   "options": "School",
    "reqd": 1
   },
   {
@@ -76,7 +76,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-01-14 10:46:26.776143",
+ "modified": "2022-01-31 17:58:28.366010",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Performance",

@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "field:email",
- "creation": "2022-01-11 15:57:53.811413",
+ "creation": "2022-01-11 20:10:06.632094",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -20,7 +20,7 @@
    "fieldname": "school",
    "fieldtype": "Link",
    "label": "School",
-   "options": "School Detail",
+   "options": "School",
    "reqd": 1
   },
   {
@@ -66,7 +66,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-01-11 16:12:05.268504",
+ "modified": "2022-01-31 17:58:27.701872",
  "modified_by": "Administrator",
  "module": "School",
  "name": "School User",

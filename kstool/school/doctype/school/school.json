@@ -266,10 +266,10 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-01-11 16:09:52.465237",
+ "modified": "2022-01-31 16:09:52.465237",
  "modified_by": "Administrator",
  "module": "School",
- "name": "School Detail",
+ "name": "School",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
