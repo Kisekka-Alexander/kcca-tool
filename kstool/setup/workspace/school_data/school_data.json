@@ -5,71 +5,19 @@
  "docstatus": 0,
  "doctype": "Workspace",
  "hide_custom": 0,
- "icon": "list_alt",
+ "icon": "liabilities",
  "idx": 0,
  "label": "School Data",
  "links": [],
- "modified": "2022-01-31 18:29:29.552769",
+ "modified": "2022-01-31 18:50:12.853509",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "School Data",
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
- "roles": [
-  {
-   "role": "School Headteacher Self Service"
-  },
-  {
-   "role": "School Class Teacher"
-  },
-  {
-   "role": "School Class Teacher Self Service"
-  },
-  {
-   "role": "School Headteacher"
-  },
-  {
-   "role": "School Headteacher Self Service"
-  }
- ],
- "sequence_id": 1,
- "shortcuts": [
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Student Attendance",
-   "link_to": "Attendance",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Schools",
-   "link_to": "School",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "School Performace",
-   "link_to": "Performance",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Enrollment",
-   "link_to": "Enrollment",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "School Users",
-   "link_to": "School User",
-   "type": "DocType"
-  }
- ],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [],
  "title": "School Data"
 }
