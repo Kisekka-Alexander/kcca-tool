@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"School Data\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Schools\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Enrollment\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"School Users\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Student Attendance\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"School Performace\",\"col\":4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"School Data\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}}]",
  "creation": "2022-01-07 05:15:32.878860",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -9,7 +9,7 @@
  "idx": 0,
  "label": "School Data",
  "links": [],
- "modified": "2022-01-20 09:51:18.336941",
+ "modified": "2022-01-31 18:29:29.552769",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "School Data",
@@ -46,7 +46,7 @@
    "color": "Grey",
    "doc_view": "List",
    "label": "Schools",
-   "link_to": "School Detail",
+   "link_to": "School",
    "type": "DocType"
   },
   {
