@@ -9,15 +9,26 @@
  "idx": 0,
  "label": "School Data",
  "links": [],
- "modified": "2022-01-31 18:50:12.853509",
+ "modified": "2022-02-01 08:35:24.841995",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "School Data",
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
- "roles": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
  "sequence_id": 1.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Schools",
+   "link_to": "School",
+   "type": "DocType"
+  }
+ ],
  "title": "School Data"
 }
