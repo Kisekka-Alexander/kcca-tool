@@ -196,16 +196,19 @@ fixtures = [
     #     "filters": {
     #         "name" : ["in", "School Headteacher, School Class Teacher, School Inspector"]
     #     }
-    # }
+    # },
     # {
     #      "doctype": "Special Needs",
     #      "filters": {
     #          "name" : ["in", "Visual Impairment, Hearing Impairment, Physical Impairment, Mental Impairment, Learning Impairment, Other"]
     #      }
     # },
-    # {
-    #     "doctype": "Transaction Type",
-    # }
+   # {
+   #     "doctype": "Division",
+   #     "filters": {
+   #         "name" : ["in", "Central, Nakawa, Rubaga, Makindye, Kawempe"]
+   #     }
+   # }
 ],
 # website_context = {
 # 	"favicon": 	"/assets/kstool/favicon.png",

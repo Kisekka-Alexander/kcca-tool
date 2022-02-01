@@ -42,7 +42,6 @@
   "founding_year",
   "highest_class_in_school",
   "use_status"
-
  ],
  "fields": [
   {
@@ -51,38 +50,36 @@
    "label": "Section A: School Identification"
   },
   {
+   "default": "Kampala",
    "fieldname": "district",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "District",
-   "reqd": 1
+   "label": "District"
   },
   {
    "fieldname": "municipality",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Municipality",
-   "reqd": 1
+   "options": "Municipality"
   },
   {
    "fieldname": "division",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Division",
-   "reqd": 1
+   "options": "Division"
   },
   {
    "fieldname": "ward",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Ward",
-   "reqd": 1
+   "label": "Ward"
   },
   {
    "fieldname": "physical_address",
    "fieldtype": "Data",
-   "label": "Physical Address",
-   "reqd": 1
+   "label": "Physical Address"
   },
   {
    "fieldname": "amended_from",
@@ -100,8 +97,7 @@
   {
    "fieldname": "po_box_town",
    "fieldtype": "Data",
-   "label": "P.O Box Town",
-   "reqd": 1
+   "label": "P.O Box Town"
   },
   {
    "fieldname": "email_address",
@@ -118,8 +114,7 @@
   {
    "fieldname": "contact_telephone",
    "fieldtype": "Data",
-   "label": "Contact Telephone",
-   "reqd": 1
+   "label": "Contact Telephone"
   },
   {
    "fieldname": "column_break_15",
@@ -155,36 +150,31 @@
    "fieldname": "founding_body",
    "fieldtype": "Select",
    "label": "Founding Body",
-   "options": "Government\nIslamic\nCOU\nCatholic\nSDA\nCommunity\nEntrepreneurs\nOther",
-   "reqd": 1
+   "options": "Government\nIslamic\nCOU\nCatholic\nSDA\nCommunity\nEntrepreneurs\nOther"
   },
   {
    "fieldname": "source_of_funding",
    "fieldtype": "Select",
    "label": "Source of funding",
-   "options": "Government\nNot Government Aided",
-   "reqd": 1
+   "options": "Government\nNot Government Aided"
   },
   {
    "fieldname": "school_type",
    "fieldtype": "Select",
    "label": "School Type",
-   "options": "Co-education(mixed)\nBoys only\nGirls only",
-   "reqd": 1
+   "options": "Co-education(mixed)\nBoys only\nGirls only"
   },
   {
    "fieldname": "dayboarding_school",
    "fieldtype": "Select",
    "label": "Day/Boarding school",
-   "options": "Day school\nPartly boarding\nFull boarding",
-   "reqd": 1
+   "options": "Day school\nPartly boarding\nFull boarding"
   },
   {
    "fieldname": "registry_status",
    "fieldtype": "Select",
    "label": "Registry Status",
-   "options": "Licensed\nRegistered\nNot Licensed",
-   "reqd": 1
+   "options": "Licensed\nRegistered\nNot Licensed"
   },
   {
    "fieldname": "column_break_24",
@@ -194,49 +184,42 @@
    "fieldname": "distance_to_nearest_primary_school",
    "fieldtype": "Select",
    "label": "Distance to Nearest Primary School",
-   "options": "Below 1 km\n1-2 km\n2.1-3 km\n3.1-4 km\n4.1-5 km\nabove 5 km",
-   "reqd": 1
+   "options": "Below 1 km\n1-2 km\n2.1-3 km\n3.1-4 km\n4.1-5 km\nabove 5 km"
   },
   {
    "fieldname": "distance_to_deo_main_office",
    "fieldtype": "Select",
    "label": "Distance to DEO Main office",
-   "options": "Below 10 km\n10-20 km\n20.1-30 km\n30.1-40 km\n40.1-50 km\nAbove 50 km",
-   "reqd": 1
+   "options": "Below 10 km\n10-20 km\n20.1-30 km\n30.1-40 km\n40.1-50 km\nAbove 50 km"
   },
   {
    "fieldname": "number_of_inspections_conducted_by_deo_or_dis_last_year",
    "fieldtype": "Select",
    "label": "Number of Inspections Conducted by DEO or DIS Last year",
-   "options": "One\nTwo\nMore than two\nNone",
-   "reqd": 1
+   "options": "One\nTwo\nMore than two\nNone"
   },
   {
    "fieldname": "urban_or_rural",
    "fieldtype": "Select",
    "label": "Urban or Rural",
-   "options": "Urban\nPeri-Urban\nRural",
-   "reqd": 1
+   "options": "Urban\nPeri-Urban\nRural"
   },
   {
    "fieldname": "founding_year",
    "fieldtype": "Data",
-   "label": "Founding Year",
-   "reqd": 1
+   "label": "Founding Year"
   },
   {
    "fieldname": "highest_class_in_school",
    "fieldtype": "Select",
    "label": "Highest Class in School",
-   "options": "S.1\nS.2\nS.3\nS.4\nS.5\nS.6",
-   "reqd": 1
+   "options": "S.1\nS.2\nS.3\nS.4\nS.5\nS.6"
   },
   {
    "fieldname": "use_status",
    "fieldtype": "Select",
    "label": "USE Status",
-   "options": "USE\nNon USE",
-   "reqd": 1
+   "options": "USE\nNon USE"
   },
   {
    "fieldname": "column_break_33",
@@ -246,8 +229,7 @@
    "fieldname": "status_of_operation",
    "fieldtype": "Select",
    "label": "Status Of Operation",
-   "options": "Gorvernment\nPrivate",
-   "reqd": 1
+   "options": "Gorvernment\nPrivate"
   },
   {
    "fieldname": "school_name",
@@ -265,10 +247,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-01 17:01:04.373591",
+ "modified": "2022-02-01 18:08:55.551178",
  "modified_by": "Administrator",
  "module": "School",
  "name": "School",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
