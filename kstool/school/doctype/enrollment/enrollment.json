@@ -2,7 +2,8 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
- "creation": "2022-01-11 20:10:06.511870",
+ "autoname": "format:{school}-KS-{#####}",
+ "creation": "2022-01-29 13:16:21.822210",
  "description": "Student/Pupil Enrollment",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -13,9 +14,10 @@
   "name1",
   "sex",
   "date_of_birth",
-  "is_refugee",
+  "is_non_ugandan",
   "nationality",
-  "class",
+  "is_refugee",
+  "school_class",
   "column_break_7",
   "stream",
   "previous_school",
@@ -32,16 +34,17 @@
   },
   {
    "fieldname": "school",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "label": "School",
+   "options": "School",
    "reqd": 1
   },
   {
    "fieldname": "name1",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Name",
+   "label": "Student Name",
    "reqd": 1
   },
   {
@@ -53,24 +56,17 @@
    "reqd": 1
   },
   {
-   "depends_on": "eval:(doc.is_refugee== \"Yes\")",
+   "depends_on": "eval:(doc.is_non_ugandan == \"1\")",
    "fieldname": "nationality",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Nationality",
    "mandatory_depends_on": "eval:(doc.is_refugee== \"Yes\")",
-   "options": "Kenya\nRwanda\nSouth Sudan\nSomalia\nEgypt\nBurundi",
-   "reqd": 1
-  },
-  {
-   "fieldname": "class",
-   "fieldtype": "Data",
-   "label": "Class",
-   "reqd": 1
+   "options": "Country"
   },
   {
    "fieldname": "stream",
-   "fieldtype": "Data",
+   "fieldtype": "Select",
    "label": "Stream"
   },
   {
@@ -109,25 +105,39 @@
   },
   {
    "default": "No",
+   "depends_on": "eval:(doc.is_non_ugandan== \"1\")",
    "fieldname": "is_refugee",
    "fieldtype": "Select",
    "label": "Is Refugee",
-   "options": "Yes\nNo",
-   "reqd": 1
+   "options": "Yes\nNo"
   },
   {
    "fieldname": "date_of_birth",
    "fieldtype": "Date",
    "label": "Date of Birth",
    "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_non_ugandan",
+   "fieldtype": "Check",
+   "label": "Non Ugandan?",
+   "reqd": 1
+  },
+  {
+   "fieldname": "school_class",
+   "fieldtype": "Select",
+   "label": "Class",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-01-29 12:59:31.768890",
+ "modified": "2022-02-03 16:20:54.979996",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Enrollment",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -165,7 +175,9 @@
    "share": 1
   }
  ],
+ "search_fields": "name1",
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "name1"
 }
