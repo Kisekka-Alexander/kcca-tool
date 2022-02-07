@@ -33,7 +33,7 @@
    "fieldname": "role",
    "fieldtype": "Select",
    "label": "Role",
-   "options": "School Headteacher\nSchool Class Teacher",
+   "options": "School Headteacher",
    "reqd": 1
   },
   {
