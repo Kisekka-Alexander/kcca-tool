@@ -15,7 +15,16 @@
   "teacher",
   "term",
   "section_break_8",
-  "attendance_list"
+  "attendance_list",
+  "section_break_10",
+  "present",
+  "female_present",
+  "male_present",
+  "total_count",
+  "column_break_12",
+  "absent",
+  "female_absent",
+  "male_absent"
  ],
  "fields": [
   {
@@ -35,7 +44,7 @@
   },
   {
    "fieldname": "stream",
-   "fieldtype": "Data",
+   "fieldtype": "Select",
    "label": "Stream"
   },
   {
@@ -69,15 +78,65 @@
   },
   {
    "fieldname": "school_class",
-   "fieldtype": "Data",
+   "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Class",
    "reqd": 1
+  },
+  {
+   "fieldname": "present",
+   "fieldtype": "Int",
+   "label": "Present",
+   "read_only": 1
+  },
+  {
+   "fieldname": "absent",
+   "fieldtype": "Int",
+   "label": "Absent",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_count",
+   "fieldtype": "Int",
+   "label": "Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "female_present",
+   "fieldtype": "Int",
+   "label": "Female Present",
+   "read_only": 1
+  },
+  {
+   "fieldname": "male_present",
+   "fieldtype": "Int",
+   "label": "Male Present",
+   "read_only": 1
+  },
+  {
+   "fieldname": "female_absent",
+   "fieldtype": "Int",
+   "label": "Female Absent",
+   "read_only": 1
+  },
+  {
+   "fieldname": "male_absent",
+   "fieldtype": "Int",
+   "label": "Male Absent",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-03 16:52:10.886742",
+ "modified": "2022-02-09 08:10:58.463212",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Attendance",
@@ -94,6 +153,30 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "School Class Teacher",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "School Headteacher",
    "share": 1,
    "write": 1
   }

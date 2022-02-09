@@ -30,7 +30,7 @@ class SchoolUser(Document):
             user.flags.ignore_password_policy = True
             user.flags.no_welcome_mail = True
 
-            # self.append_role(user, self.role)
+            self.append_role(user, self.role)
 
             user.insert()
 

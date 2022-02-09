@@ -25,7 +25,8 @@ frappe.ui.form.on('Attendance', {
     },
     school_class: function (frm){
         let streams = [];
-        frappe.db.get_list('Stream', {"filters": {"class": frm.doc.school_class}}).then((data) => {
+        console.log(frm.doc.school_class);
+        frappe.db.get_list('Stream', {"filters": {"school_class": frm.doc.school_class}}).then((data) => {
             if (data.length > 0)
             {
                 data.forEach((stream) => {

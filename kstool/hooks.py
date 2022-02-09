@@ -217,3 +217,7 @@ fixtures = [
 # },
 
 # after_migrate = "kstool.setup.install.after_migrate"
+standard_portal_menu_items = [
+    {"title": "School Profile", "route": "/school_profile", "role": "System Administrator"},
+    {"title": "Teachers", "route": "/school-teacher", "role": "System Administrator"},
+]
