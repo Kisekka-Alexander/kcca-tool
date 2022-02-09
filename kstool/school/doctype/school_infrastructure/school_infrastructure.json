@@ -1,0 +1,239 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-02-09 12:56:16.790874",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "school",
+  "column_break_2",
+  "school_name",
+  "classrooms_section",
+  "classrooms_in_use",
+  "classrooms_not_in_use",
+  "libraries_section",
+  "libraries_in_use",
+  "libraries_not_in_use",
+  "stores_section",
+  "stores_in_use",
+  "stores_not_in_use",
+  "workshops_section",
+  "workshops_in_use",
+  "workshops_not_in_use",
+  "offices_section",
+  "offices_in_use",
+  "offices_not_in_use",
+  "staff_rooms_section",
+  "staff_rooms_in_use",
+  "staff_rooms_not_in_use",
+  "latrines_section",
+  "latrines_in_use",
+  "latrines_not_in_use",
+  "teachers_houses_section",
+  "teachers_houses_in_use",
+  "teachers_houses_not_in_use",
+  "computer_lab_section",
+  "computer_labs_in_use",
+  "computer_labs_not_in_use"
+ ],
+ "fields": [
+  {
+   "fieldname": "school",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "School",
+   "options": "School",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "school.school_name",
+   "fieldname": "school_name",
+   "fieldtype": "Data",
+   "label": "School Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "classrooms_section",
+   "fieldtype": "Section Break",
+   "label": "Classrooms"
+  },
+  {
+   "fieldname": "classrooms_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "classrooms_not_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms Not in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "libraries_section",
+   "fieldtype": "Section Break",
+   "label": "Libraries"
+  },
+  {
+   "fieldname": "libraries_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "libraries_not_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms not in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "stores_section",
+   "fieldtype": "Section Break",
+   "label": "Stores"
+  },
+  {
+   "fieldname": "stores_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "stores_not_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms not in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "workshops_section",
+   "fieldtype": "Section Break",
+   "label": "Workshops"
+  },
+  {
+   "fieldname": "workshops_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "workshops_not_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms not in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "offices_section",
+   "fieldtype": "Section Break",
+   "label": "Offices"
+  },
+  {
+   "fieldname": "offices_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "offices_not_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms in not in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "staff_rooms_section",
+   "fieldtype": "Section Break",
+   "label": "Staff Rooms"
+  },
+  {
+   "fieldname": "staff_rooms_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "staff_rooms_not_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms not in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "latrines_section",
+   "fieldtype": "Section Break",
+   "label": "Latrines"
+  },
+  {
+   "fieldname": "latrines_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "latrines_not_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms not in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "teachers_houses_section",
+   "fieldtype": "Section Break",
+   "label": "Teacher Houses"
+  },
+  {
+   "fieldname": "teachers_houses_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "teachers_houses_not_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms not in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "computer_lab_section",
+   "fieldtype": "Section Break",
+   "label": "Computer lab"
+  },
+  {
+   "fieldname": "computer_labs_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms in use",
+   "options": "Infrastructure Structures"
+  },
+  {
+   "fieldname": "computer_labs_not_in_use",
+   "fieldtype": "Table",
+   "label": "Rooms not in use",
+   "options": "Infrastructure Structures"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-02-09 13:23:12.039610",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "School Infrastructure",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

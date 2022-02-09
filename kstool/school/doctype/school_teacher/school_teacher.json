@@ -12,6 +12,7 @@
   "school_name",
   "gender",
   "date_of_birth",
+  "on_payroll",
   "mps_payroll_computer_number",
   "column_break_5",
   "school_class",
@@ -184,8 +185,8 @@
   {
    "fieldname": "additional_school_responsibilty",
    "fieldtype": "Select",
-   "label": "Additional School Responsibilty",
-   "options": "\nHead Teacher\nDeputy Head Teacher\nSenior Woman\nhead of Department\nHouse Master or Mistress\nClass Teacher/Master\nCareer Master\nMatron\nSenior Man"
+   "label": "Additional School Responsibility",
+   "options": "\nHead Teacher\nDeputy Head Teacher\nSenior Woman\nhead of Department\nHouse Master or Mistress\nClass Teacher/Master\nCareer Master\nMatron\nSenior Man\nEducation Assistant"
   },
   {
    "fieldname": "date_of_first_appointment",
@@ -207,12 +208,18 @@
    "fieldtype": "Select",
    "label": "Reason for leaving",
    "options": "\nTransferred to another teaching post\nTransferred to a non-teaching post\nResigned\nRetired\nIllness\nDeceased\nReason not known/Other\nDismissed"
+  },
+  {
+   "default": "0",
+   "fieldname": "on_payroll",
+   "fieldtype": "Check",
+   "label": "On Payroll"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2022-02-09 11:13:39.222875",
+ "modified": "2022-02-09 12:35:26.544233",
  "modified_by": "Administrator",
  "module": "School",
  "name": "School Teacher",
