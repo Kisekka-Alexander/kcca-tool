@@ -10,22 +10,39 @@
   "teacher_name",
   "school",
   "school_name",
+  "gender",
+  "date_of_birth",
+  "mps_payroll_computer_number",
   "column_break_5",
   "school_class",
   "stream",
   "published",
   "active",
+  "date_of_first_posting",
+  "additional_school_responsibilty",
+  "date_of_first_appointment",
   "section_break_7",
   "email",
   "column_break_11",
-  "phone_number"
+  "phone_number",
+  "section_break_13",
+  "highest_level_of_education",
+  "highest_teaching_professional__qualifications",
+  "mps_salary_scale",
+  "column_break_17",
+  "type_of_training_last_year",
+  "type_of_qualification_attained_in_physical_education_and_sports",
+  "type_of_training_in_sanitation_promotion",
+  "section_break_27",
+  "is_left",
+  "reason_for_leaving"
  ],
  "fields": [
   {
    "fieldname": "teacher_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Name",
+   "label": "Full Name",
    "reqd": 1
   },
   {
@@ -39,7 +56,7 @@
   {
    "fieldname": "school_class",
    "fieldtype": "Select",
-   "label": "Class"
+   "label": "Main Class"
   },
   {
    "fieldname": "stream",
@@ -93,12 +110,109 @@
   {
    "fieldname": "column_break_11",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "highest_level_of_education",
+   "fieldtype": "Select",
+   "label": "Highest Level of education",
+   "options": "\nO level\nO level + Cert/Dip\nA level\nA level + Cert/Dip\nGraduate\nPsot Graduate\nMasters Degree\nDoctorate",
+   "reqd": 1
+  },
+  {
+   "fieldname": "highest_teaching_professional__qualifications",
+   "fieldtype": "Select",
+   "label": "Highest Teaching professional  Qualifications",
+   "options": "\nGrade III Teacher\nGrade V Teacher\nDPE\nGraduate Teacher",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mps_salary_scale",
+   "fieldtype": "Select",
+   "label": "MPS Salary Scale",
+   "options": "\nU1\nU2\nU3\nU4\nU5\nU6\nU7\nU8",
+   "reqd": 1
+  },
+  {
+   "fieldname": "type_of_training_last_year",
+   "fieldtype": "Select",
+   "label": "Type of Training Last year",
+   "options": "\nPre-service\nIn-service/Upgrading"
+  },
+  {
+   "fieldname": "type_of_qualification_attained_in_physical_education_and_sports",
+   "fieldtype": "Select",
+   "label": "Type of qualification Attained in Physical Education and Sports",
+   "options": "\nCertifcate\nDiploma\nDegree"
+  },
+  {
+   "fieldname": "type_of_training_in_sanitation_promotion",
+   "fieldtype": "Select",
+   "label": "Type of Training in Sanitation Promotion",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of birth",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mps_payroll_computer_number",
+   "fieldtype": "Data",
+   "label": "MPS payroll Computer Number"
+  },
+  {
+   "fieldname": "date_of_first_posting",
+   "fieldtype": "Date",
+   "label": "Date of first Posting"
+  },
+  {
+   "fieldname": "additional_school_responsibilty",
+   "fieldtype": "Select",
+   "label": "Additional School Responsibilty",
+   "options": "\nHead Teacher\nDeputy Head Teacher\nSenior Woman\nhead of Department\nHouse Master or Mistress\nClass Teacher/Master\nCareer Master\nMatron\nSenior Man"
+  },
+  {
+   "fieldname": "date_of_first_appointment",
+   "fieldtype": "Date",
+   "label": "Date of first Appointment"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_left",
+   "fieldtype": "Check",
+   "label": "Is Left"
+  },
+  {
+   "fieldname": "reason_for_leaving",
+   "fieldtype": "Select",
+   "label": "Reason for leaving",
+   "options": "\nTransferred to another teaching post\nTransferred to a non-teaching post\nResigned\nRetired\nIllness\nDeceased\nReason not known/Other\nDismissed"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2022-02-08 11:39:44.139207",
+ "modified": "2022-02-09 11:13:39.222875",
  "modified_by": "Administrator",
  "module": "School",
  "name": "School Teacher",
