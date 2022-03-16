@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-03-16 19:55:44.571921",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "number_of_teachers_deployed",
+  "class",
+  "number_of_streams",
+  "section_break_1",
+  "boys",
+  "girls",
+  "total",
+  "column2",
+  "section_break_2",
+  "boys1",
+  "girls2",
+  "total2",
+  "column1",
+  "section_break_3",
+  "boys3",
+  "girls3",
+  "total3",
+  "column3",
+  "attendance_rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "boys",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Boys"
+  },
+  {
+   "fieldname": "girls",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Girls"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total"
+  },
+  {
+   "fieldname": "class",
+   "fieldtype": "Select",
+   "label": "Class",
+   "options": "P1\nP2\nP3\nP4\nP5\nP6\nP7"
+  },
+  {
+   "fieldname": "number_of_streams",
+   "fieldtype": "Int",
+   "label": "Number of streams"
+  },
+  {
+   "fieldname": "number_of_teachers_deployed",
+   "fieldtype": "Int",
+   "label": "Number of teachers deployed"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "Enrolment at the beginning of the school year"
+  },
+  {
+   "fieldname": "column2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break",
+   "label": "Current enrolment (on day of the inspection)"
+  },
+  {
+   "fieldname": "boys1",
+   "fieldtype": "Int",
+   "label": "Boys"
+  },
+  {
+   "fieldname": "girls2",
+   "fieldtype": "Int",
+   "label": "Girls"
+  },
+  {
+   "fieldname": "total2",
+   "fieldtype": "Int",
+   "label": "Total"
+  },
+  {
+   "fieldname": "column1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break",
+   "label": "Attendance on the day of the inspection"
+  },
+  {
+   "fieldname": "boys3",
+   "fieldtype": "Int",
+   "label": "Boys"
+  },
+  {
+   "fieldname": "girls3",
+   "fieldtype": "Int",
+   "label": "Girls"
+  },
+  {
+   "fieldname": "total3",
+   "fieldtype": "Int",
+   "label": "Total"
+  },
+  {
+   "fieldname": "column3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attendance_rate",
+   "fieldtype": "Percent",
+   "label": "Attendance rate (%) "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-03-16 20:51:10.261300",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "Enrollment2",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
