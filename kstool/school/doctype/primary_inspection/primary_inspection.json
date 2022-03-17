@@ -29,7 +29,29 @@
   "head_teacher_attendance_rate",
   "staff_attendance_rate",
   "section_break_2",
-  "number_of_teachers_deployed"
+  "number_of_teachers_deployed",
+  "section_break_3",
+  "teacher_pupil_ratio_lower",
+  "teacher_pupil_ratio_upper",
+  "cpr_lower",
+  "cpr_upper",
+  "spr_boys",
+  "spr_girls",
+  "spr_overall",
+  "special_educ_needs",
+  "section_break_4",
+  "section_break_5",
+  "state_of_structures",
+  "green_compound",
+  "good_space_for_leaners",
+  "properly_demacated",
+  "total_marks",
+  "classroom",
+  "adequate_space",
+  "adequacy_of_seating",
+  "timetable_and_daily_attendance",
+  "total_score",
+  "sanitary_facilities"
  ],
  "fields": [
   {
@@ -157,11 +179,127 @@
    "fieldname": "number_of_teachers_deployed",
    "fieldtype": "Table",
    "options": "Enrollment2"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "teacher_pupil_ratio_lower",
+   "fieldtype": "Data",
+   "label": "Teacher-pupil ratio (TPR), at lower primary (P1 \u2013 P3)"
+  },
+  {
+   "fieldname": "teacher_pupil_ratio_upper",
+   "fieldtype": "Data",
+   "label": "Teacher-pupil ratio (TPR), at upper primary (P4-P7)"
+  },
+  {
+   "fieldname": "cpr_lower",
+   "fieldtype": "Data",
+   "label": "Classroom-pupil ratio (CPR), at lower primary (P1-P3)"
+  },
+  {
+   "fieldname": "cpr_upper",
+   "fieldtype": "Data",
+   "label": "Classroom-pupil ratio (CPR), at upper primary (P4-P7)"
+  },
+  {
+   "fieldname": "spr_boys",
+   "fieldtype": "Data",
+   "label": "Stance-pupil ratio (SPR), boys"
+  },
+  {
+   "fieldname": "spr_girls",
+   "fieldtype": "Data",
+   "label": "Stance-pupil ratio (SPR), girls"
+  },
+  {
+   "fieldname": "spr_overall",
+   "fieldtype": "Data",
+   "label": "Stance-pupil ratio (SPR), overall"
+  },
+  {
+   "fieldname": "special_educ_needs",
+   "fieldtype": "Int",
+   "label": "Number of children with special educational needs"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Heading",
+   "label": "PILLAR 1: LEARNING ENVIRONMENT"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break",
+   "label": "1.Physical facilities"
+  },
+  {
+   "fieldname": "state_of_structures",
+   "fieldtype": "Table",
+   "label": "State of structures (walls, roofing doors, floor, adequate natural light, ventilation, ramps, windows) and maintenance",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "green_compound",
+   "fieldtype": "Table",
+   "label": "Green compound (trees, flowers, grass, and demarcated areas for waste disposal. Adherence to policy on Kavera ban.",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "good_space_for_leaners",
+   "fieldtype": "Table",
+   "label": "Good space for learners. Well maintained compound with marked walking lanes.",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "properly_demacated",
+   "fieldtype": "Table",
+   "label": "Properly demarcated areas for games and sports.",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "total_marks",
+   "fieldtype": "Data",
+   "label": " Total marks (score) for this indicator."
+  },
+  {
+   "fieldname": "classroom",
+   "fieldtype": "Section Break",
+   "label": "2.Classrooms"
+  },
+  {
+   "fieldname": "adequate_space",
+   "fieldtype": "Table",
+   "label": "Adequate space for learners and classrooms appropriately used, e.g. not converting classrooms into dormitories",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "adequacy_of_seating",
+   "fieldtype": "Table",
+   "label": "Adequacy of seating facilities, quality of chalk boards, storage facilities for teaching materials and general cleanliness",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "timetable_and_daily_attendance",
+   "fieldtype": "Table",
+   "label": "Timetable and daily attendance records displayed in specified places",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "total_score",
+   "fieldtype": "Data",
+   "label": "Total score for the indicator."
+  },
+  {
+   "fieldname": "sanitary_facilities",
+   "fieldtype": "Section Break",
+   "label": "3.Sanitary facilities"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-03-16 21:27:04.176097",
+ "modified": "2022-03-17 09:10:00.669209",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Primary Inspection",
