@@ -51,7 +51,37 @@
   "adequacy_of_seating",
   "timetable_and_daily_attendance",
   "total_score",
-  "sanitary_facilities"
+  "sanitary_facilities",
+  "provision_of_facilities",
+  "cleanliness_of_sanitary",
+  "hand_washing",
+  "total_score_indicator",
+  "disciplinary_guidelines",
+  "existence_and_dissemination",
+  "functional_disciplinary",
+  "parents_and_guardians_involved",
+  "total_marks_for_the_indivi",
+  "inclusive_school_practise",
+  "non_descriminative",
+  "gender_equality",
+  "school_guideline",
+  "total_marks_1",
+  "section_break5",
+  "hazard_free_env",
+  "avail_adherence",
+  "avail_lightening_arrestor",
+  "askari_avail",
+  "total_marks_6",
+  "overrall_judgement",
+  "section_break_7",
+  "overall_assessment_for_the_schools_learning_environment",
+  "heading_4",
+  "section_break6",
+  "level_of_participation",
+  "participation_level",
+  "school_participation",
+  "total_score_2",
+  "overall_judgement"
  ],
  "fields": [
   {
@@ -295,11 +325,177 @@
    "fieldname": "sanitary_facilities",
    "fieldtype": "Section Break",
    "label": "3.Sanitary facilities"
+  },
+  {
+   "fieldname": "provision_of_facilities",
+   "fieldtype": "Table",
+   "label": "Provision of separate latrines/toilets for girls, boys, SNE and staff with shutters.",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "cleanliness_of_sanitary",
+   "fieldtype": "Table",
+   "label": "Cleanliness of sanitary facilities and provision of proper drainage facilities",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "hand_washing",
+   "fieldtype": "Table",
+   "label": "Availability and use of hand washing facilities.",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "total_score_indicator",
+   "fieldtype": "Data",
+   "label": "Total score for the indicator."
+  },
+  {
+   "fieldname": "disciplinary_guidelines",
+   "fieldtype": "Section Break",
+   "label": "4.Disciplinary guidelines"
+  },
+  {
+   "fieldname": "existence_and_dissemination",
+   "fieldtype": "Table",
+   "label": "Existence and dissemination of school rules and regulations.",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "functional_disciplinary",
+   "fieldtype": "Table",
+   "label": "Functional disciplinary committees and use of guidance and counselling and teaching of morals to promote good discipline",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "parents_and_guardians_involved",
+   "fieldtype": "Table",
+   "label": "Parents and guardians are involved in the discipline of their children",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "total_marks_for_the_indivi",
+   "fieldtype": "Data",
+   "label": "Total marks for the Indicator."
+  },
+  {
+   "fieldname": "inclusive_school_practise",
+   "fieldtype": "Section Break",
+   "label": "5. Inclusive school practice"
+  },
+  {
+   "fieldname": "non_descriminative",
+   "fieldtype": "Table",
+   "label": "Non-discriminative policies (refugees, SNE, health etc.",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "gender_equality",
+   "fieldtype": "Table",
+   "label": "Boys and girls treated equally, for example through gender sensitive pedagogy",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "school_guideline",
+   "fieldtype": "Table",
+   "label": "School guidelines and practices on violence, for example zero tolerance to corporal punishment",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "total_marks_1",
+   "fieldtype": "Data",
+   "label": "Total marks for the Indicator"
+  },
+  {
+   "fieldname": "section_break5",
+   "fieldtype": "Section Break",
+   "label": "6. Safety and security"
+  },
+  {
+   "fieldname": "hazard_free_env",
+   "fieldtype": "Table",
+   "label": "Hazard free environment (free from open holes, stumps, slippery ground etc),",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "avail_adherence",
+   "fieldtype": "Table",
+   "label": "Availability and adherence to rules/guidelines on safety and security",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "avail_lightening_arrestor",
+   "fieldtype": "Table",
+   "label": "Availability of lightning arrestors and fire prevention systems.",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "askari_avail",
+   "fieldtype": "Table",
+   "label": "Security personnel/askari and book at entrance to record all visitors",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "total_marks_6",
+   "fieldtype": "Data",
+   "label": "Total mark score of the Indicator "
+  },
+  {
+   "bold": 1,
+   "fieldname": "overrall_judgement",
+   "fieldtype": "Data",
+   "label": "Overall Judgement for the domain"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "overall_assessment_for_the_schools_learning_environment",
+   "fieldtype": "Read Only",
+   "label": "OVERALL ASSESSMENT FOR THE SCHOOLS LEARNING ENVIRONMENT",
+   "options": "Scores"
+  },
+  {
+   "fieldname": "heading_4",
+   "fieldtype": "Heading",
+   "label": "PILLAR 4: INVOLVEMENT OF PARENTS AND COMMUNITY"
+  },
+  {
+   "fieldname": "section_break6",
+   "fieldtype": "Section Break",
+   "label": "1. Participation of community and parents in school activities"
+  },
+  {
+   "fieldname": "level_of_participation",
+   "fieldtype": "Table",
+   "label": "Level of participation of the community and parents",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "participation_level",
+   "fieldtype": "Section Break",
+   "label": "2. Participation of the school in community activities"
+  },
+  {
+   "fieldname": "school_participation",
+   "fieldtype": "Table",
+   "label": "Level of participation of the school and awareness in national and district activities",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "total_score_2",
+   "fieldtype": "Data",
+   "label": " Total score "
+  },
+  {
+   "fieldname": "overall_judgement",
+   "fieldtype": "Data",
+   "label": "Overall judgement of the domain "
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-03-17 09:10:00.669209",
+ "modified": "2022-03-18 17:07:00.050696",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Primary Inspection",
