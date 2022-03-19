@@ -81,7 +81,44 @@
   "participation_level",
   "school_participation",
   "total_score_2",
-  "overall_judgement"
+  "overall_judgement",
+  "heading_5",
+  "section_break7",
+  "table1",
+  "teaching_preps",
+  "scheme_of_work",
+  "lesson_plans",
+  "lesson_notes",
+  "tecahers_record",
+  "indicator_total_score",
+  "lesson_delivery",
+  "teacher_correctly",
+  "questions_are_frequent",
+  "the_questions_check",
+  "questioning_is_well",
+  "the_questionning_promotes",
+  "indicator_score3",
+  "learners_work",
+  "quality_of_learners",
+  "learners_workbooks",
+  "records_of_continous",
+  "indicator_score4",
+  "teaching_and_learning",
+  "appropriate_teaching",
+  "teacher_is_innovative",
+  "learning_material",
+  "indicator_score5",
+  "learners_engage",
+  "learners_actively_engaged",
+  "learners_treated_with_respect",
+  "class_management",
+  "indicator_score6",
+  "learner_behaviour",
+  "learners_are_punctual",
+  "learners_are_attentive",
+  "learners_listen",
+  "indicator_score7",
+  "overall_judgement_for_the_domain"
  ],
  "fields": [
   {
@@ -491,11 +528,217 @@
    "fieldname": "overall_judgement",
    "fieldtype": "Data",
    "label": "Overall judgement of the domain "
+  },
+  {
+   "fieldname": "heading_5",
+   "fieldtype": "Heading",
+   "label": "PILLAR 3: EFFECTIVENESS OF TEACHING AND LEARNING"
+  },
+  {
+   "fieldname": "section_break7",
+   "fieldtype": "Section Break",
+   "label": "Classroom/lesson observation tool:"
+  },
+  {
+   "fieldname": "table1",
+   "fieldtype": "Table",
+   "options": "LessonObservation"
+  },
+  {
+   "fieldname": "teaching_preps",
+   "fieldtype": "Section Break",
+   "label": "1. Teaching preparation"
+  },
+  {
+   "fieldname": "scheme_of_work",
+   "fieldtype": "Table",
+   "label": "Scheme of work linked to the curriculum and up-to-date with clear learning outcomes/competencies, references, teaching methods",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "lesson_plans",
+   "fieldtype": "Table",
+   "label": "Lesson plans are linked to the scheme of work. Clear lesson structure, variety of teaching methods that are learner centred described",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "lesson_notes",
+   "fieldtype": "Table",
+   "label": "Lesson notes are clear, organised, detailed and linked to the lesson plan.",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "tecahers_record",
+   "fieldtype": "Table",
+   "label": "Teacher\u2019s record of work is up-to-date and lesson recovery plans are in place in case of missed lessons",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "indicator_total_score",
+   "fieldtype": "Data",
+   "label": "Indicator total score "
+  },
+  {
+   "fieldname": "lesson_delivery",
+   "fieldtype": "Section Break",
+   "label": "2. Lesson delivery"
+  },
+  {
+   "fieldname": "teacher_correctly",
+   "fieldtype": "Table",
+   "label": "Teacher correctly introduces the topic and the lesson is well structured",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "questions_are_frequent",
+   "fieldtype": "Table",
+   "label": "Questions are frequent, of good quality, and include closed and open-ended questions ",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "the_questions_check",
+   "fieldtype": "Table",
+   "label": "The questioning checks learners\u2019 understanding of content",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "questioning_is_well",
+   "fieldtype": "Table",
+   "label": "Questioning is well distributed to all learners and learners are given the opportunity to ask questions",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "the_questionning_promotes",
+   "fieldtype": "Table",
+   "label": "The questioning promotes critical thinking",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "indicator_score3",
+   "fieldtype": "Data",
+   "label": "Indicator score "
+  },
+  {
+   "fieldname": "learners_work",
+   "fieldtype": "Section Break",
+   "label": "3. Learners\u2019 work"
+  },
+  {
+   "fieldname": "quality_of_learners",
+   "fieldtype": "Table",
+   "label": "The quality of learners\u2019 work, for example dates, handwriting, spelling etc",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "learners_workbooks",
+   "fieldtype": "Table",
+   "label": "Learners\u2019 workbooks are properly and regularly marked and corrective feedback is given",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "records_of_continous",
+   "fieldtype": "Table",
+   "label": "Records of continuous assessment results in place, analysed and discussed with learners and parents",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "indicator_score4",
+   "fieldtype": "Data",
+   "label": "Indicator score : "
+  },
+  {
+   "fieldname": "teaching_and_learning",
+   "fieldtype": "Section Break",
+   "label": "4. Teaching and learning materials"
+  },
+  {
+   "fieldname": "appropriate_teaching",
+   "fieldtype": "Table",
+   "label": "Appropriate teaching and learning materials are used",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "teacher_is_innovative",
+   "fieldtype": "Table",
+   "label": "The teacher is innovative and uses low-cost/locally made teaching materials",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "learning_material",
+   "fieldtype": "Table",
+   "label": "Learning materials are displayed to enhance learning",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "indicator_score5",
+   "fieldtype": "Data",
+   "label": "Indicator score:"
+  },
+  {
+   "fieldname": "learners_engage",
+   "fieldtype": "Section Break",
+   "label": "5. Learners\u2019 engagement"
+  },
+  {
+   "fieldname": "learners_actively_engaged",
+   "fieldtype": "Table",
+   "label": "Learners actively engaged through a range of activities (group, peer, individual), and exercises that support learning",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "learners_treated_with_respect",
+   "fieldtype": "Table",
+   "label": "All learners are treated with respect, on a caring manner with no harsh language or physical punishment used",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "class_management",
+   "fieldtype": "Table",
+   "label": "Class management is professional.  The teacher motivates learners, (knows them by name, rewards etc)",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "indicator_score6",
+   "fieldtype": "Data",
+   "label": "Indicator score:"
+  },
+  {
+   "fieldname": "learner_behaviour",
+   "fieldtype": "Section Break",
+   "label": "6. Learner behaviour"
+  },
+  {
+   "fieldname": "learners_are_punctual",
+   "fieldtype": "Table",
+   "label": "Learners are punctual for lessons and do not move up and down",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "learners_are_attentive",
+   "fieldtype": "Table",
+   "label": "Learners are attentive during lessons and are respectful to the teacher",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "learners_listen",
+   "fieldtype": "Table",
+   "label": "Learners listen and respond appropriately to the teacher\u2019s instructions",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "indicator_score7",
+   "fieldtype": "Data",
+   "label": "Indicator score: "
+  },
+  {
+   "fieldname": "overall_judgement_for_the_domain",
+   "fieldtype": "Data",
+   "label": "Overall Judgement for the domain "
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-03-18 17:07:00.050696",
+ "modified": "2022-03-19 12:30:28.669417",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Primary Inspection",
