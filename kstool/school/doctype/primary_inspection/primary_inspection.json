@@ -45,42 +45,73 @@
   "green_compound",
   "good_space_for_leaners",
   "properly_demacated",
-  "total_marks",
+  "total_score_phy_facilities",
   "classroom",
   "adequate_space",
   "adequacy_of_seating",
   "timetable_and_daily_attendance",
-  "total_score",
+  "total_score_classroom",
   "sanitary_facilities",
   "provision_of_facilities",
   "cleanliness_of_sanitary",
   "hand_washing",
-  "total_score_indicator",
+  "total_score_sanitary",
   "disciplinary_guidelines",
   "existence_and_dissemination",
   "functional_disciplinary",
   "parents_and_guardians_involved",
-  "total_marks_for_the_indivi",
+  "total_marks_disciplinary",
   "inclusive_school_practise",
   "non_descriminative",
   "gender_equality",
   "school_guideline",
-  "total_marks_1",
+  "total_score_inclusive_school",
   "section_break5",
   "hazard_free_env",
   "avail_adherence",
   "avail_lightening_arrestor",
   "askari_avail",
-  "total_marks_6",
+  "total_score_safety",
   "overrall_judgement",
   "section_break_7",
+  "heading_3",
+  "section_break_attendance",
+  "teachers_attendance_registers",
+  "mechanism_of_monitoring",
+  "total_score_attendance_of_teachers",
+  "section_break_systematic_monitoring",
+  "system_of_regular_monitoring",
+  "strategies_in_place",
+  "cocurricular_activities",
+  "total_score_systematic_monitoring",
+  "section_break_fin_mgt",
+  "annual_budget_are_approved",
+  "funds_are_spent_accordingly",
+  "total_mark_score_finmgt",
+  "monitoring_and_supervision",
+  "monitoring_curricular",
+  "every_teacher_supervised",
+  "head_teacher_conducts",
+  "identification_of_cpd",
+  "total_score_monitoring_supervision",
+  "section_break_improvement_plans",
+  "development_of_sip",
+  "sip_developed",
+  "timely_implementation",
+  "total_score_school_improvement",
+  "section_break_leadership_and_gov",
+  "existence_of_shared_school",
+  "smc_constituted",
+  "regular_meetings",
+  "total_score_leadership_gov",
+  "over_judge_pillar2",
   "overall_assessment_for_the_schools_learning_environment",
   "heading_4",
   "section_break6",
   "level_of_participation",
   "participation_level",
   "school_participation",
-  "total_score_2",
+  "total_score_",
   "overall_judgement",
   "heading_5",
   "section_break7",
@@ -326,11 +357,6 @@
    "options": "Observation"
   },
   {
-   "fieldname": "total_marks",
-   "fieldtype": "Data",
-   "label": " Total marks (score) for this indicator."
-  },
-  {
    "fieldname": "classroom",
    "fieldtype": "Section Break",
    "label": "2.Classrooms"
@@ -352,11 +378,6 @@
    "fieldtype": "Table",
    "label": "Timetable and daily attendance records displayed in specified places",
    "options": "Observation"
-  },
-  {
-   "fieldname": "total_score",
-   "fieldtype": "Data",
-   "label": "Total score for the indicator."
   },
   {
    "fieldname": "sanitary_facilities",
@@ -382,11 +403,6 @@
    "options": "Observation"
   },
   {
-   "fieldname": "total_score_indicator",
-   "fieldtype": "Data",
-   "label": "Total score for the indicator."
-  },
-  {
    "fieldname": "disciplinary_guidelines",
    "fieldtype": "Section Break",
    "label": "4.Disciplinary guidelines"
@@ -410,11 +426,6 @@
    "options": "Observation"
   },
   {
-   "fieldname": "total_marks_for_the_indivi",
-   "fieldtype": "Data",
-   "label": "Total marks for the Indicator."
-  },
-  {
    "fieldname": "inclusive_school_practise",
    "fieldtype": "Section Break",
    "label": "5. Inclusive school practice"
@@ -436,11 +447,6 @@
    "fieldtype": "Table",
    "label": "School guidelines and practices on violence, for example zero tolerance to corporal punishment",
    "options": "Observation"
-  },
-  {
-   "fieldname": "total_marks_1",
-   "fieldtype": "Data",
-   "label": "Total marks for the Indicator"
   },
   {
    "fieldname": "section_break5",
@@ -470,11 +476,6 @@
    "fieldtype": "Table",
    "label": "Security personnel/askari and book at entrance to record all visitors",
    "options": "Observation"
-  },
-  {
-   "fieldname": "total_marks_6",
-   "fieldtype": "Data",
-   "label": "Total mark score of the Indicator "
   },
   {
    "bold": 1,
@@ -518,11 +519,6 @@
    "fieldtype": "Table",
    "label": "Level of participation of the school and awareness in national and district activities",
    "options": "Observation"
-  },
-  {
-   "fieldname": "total_score_2",
-   "fieldtype": "Data",
-   "label": " Total score "
   },
   {
    "fieldname": "overall_judgement",
@@ -734,11 +730,218 @@
    "fieldname": "overall_judgement_for_the_domain",
    "fieldtype": "Data",
    "label": "Overall Judgement for the domain "
+  },
+  {
+   "fieldname": "total_score_phy_facilities",
+   "fieldtype": "Data",
+   "label": " Total marks (score) for this indicator."
+  },
+  {
+   "fieldname": "total_score_classroom",
+   "fieldtype": "Data",
+   "label": "Total score for the indicator."
+  },
+  {
+   "fieldname": "total_score_sanitary",
+   "fieldtype": "Data",
+   "label": "Total score for the indicator."
+  },
+  {
+   "fieldname": "total_marks_disciplinary",
+   "fieldtype": "Data",
+   "label": "Total marks for the Indicator."
+  },
+  {
+   "fieldname": "total_score_inclusive_school",
+   "fieldtype": "Data",
+   "label": "Total marks for the Indicator"
+  },
+  {
+   "fieldname": "total_score_safety",
+   "fieldtype": "Data",
+   "label": "Total mark score of the Indicator "
+  },
+  {
+   "fieldname": "heading_3",
+   "fieldtype": "Heading",
+   "label": "PILLAR 2: SCHOOL MANAGEMENT AND HEAD TEACHER PERFORMANCE"
+  },
+  {
+   "fieldname": "section_break_attendance",
+   "fieldtype": "Section Break",
+   "label": "1. Attendance of teachers"
+  },
+  {
+   "fieldname": "teachers_attendance_registers",
+   "fieldtype": "Table",
+   "label": "Teachers\u2019 attendance registers are up-to-date and analysed and address issues of poor attendance (schools under TELA will use reports genera",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "mechanism_of_monitoring",
+   "fieldtype": "Table",
+   "label": "Mechanisms of monitoring teachers\u2019 attendance in class in place. (Head teachers to use annex 4 lesson attendance form)",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "total_score_attendance_of_teachers",
+   "fieldtype": "Data",
+   "label": " Total marks (score) for this indicator."
+  },
+  {
+   "fieldname": "section_break_systematic_monitoring",
+   "fieldtype": "Section Break",
+   "label": "2.Systematic monitoring of learner performance"
+  },
+  {
+   "fieldname": "system_of_regular_monitoring",
+   "fieldtype": "Table",
+   "label": "There is a system of regular monitoring and assessment of learners\u2019 performance as part of the school\u2019s internal supervision and evaluation ",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "strategies_in_place",
+   "fieldtype": "Table",
+   "label": "Strategies in place to use the analysed learner performance results for improvement",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "cocurricular_activities",
+   "fieldtype": "Table",
+   "label": "Co-curricular activities are adhered to and monitored and talent identification is encouraged",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "total_score_systematic_monitoring",
+   "fieldtype": "Data",
+   "label": "Total mark score for the indicator"
+  },
+  {
+   "fieldname": "section_break_fin_mgt",
+   "fieldtype": "Section Break",
+   "label": "3.Financial management"
+  },
+  {
+   "fieldname": "annual_budget_are_approved",
+   "fieldtype": "Table",
+   "label": "Annual budgets are approved by the SMC and termly financial reports are submitted and discussed",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "funds_are_spent_accordingly",
+   "fieldtype": "Table",
+   "label": "Funds are spent according to the guidelines. Financial records are up-to-date and audited annually",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "total_mark_score_finmgt",
+   "fieldtype": "Data",
+   "label": "Total mark score for the indicator:"
+  },
+  {
+   "fieldname": "monitoring_and_supervision",
+   "fieldtype": "Section Break",
+   "label": "4.Monitoring and supervision of the quality of teaching and learning"
+  },
+  {
+   "fieldname": "monitoring_curricular",
+   "fieldtype": "Table",
+   "label": "Monitoring the curriculum and action taken on missed lessons (use annex 5 \u2013 weekly lesson recovery schedule form from the performance manage",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "every_teacher_supervised",
+   "fieldtype": "Table",
+   "label": "Every teacher is supervised in class at least once in a term using the standard lesson observation tool issued by the MoES (annex 6 of the p",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "head_teacher_conducts",
+   "fieldtype": "Table",
+   "label": "The head teacher conducts appraisal of teachers and follows up agreed actions for improved performance",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "identification_of_cpd",
+   "fieldtype": "Table",
+   "label": "There is a system for the identification of CPD needs. Every teacher has undergone a school based or external CPD.",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "total_score_monitoring_supervision",
+   "fieldtype": "Data",
+   "label": "Total mark score for the indicator"
+  },
+  {
+   "fieldname": "section_break_improvement_plans",
+   "fieldtype": "Section Break",
+   "label": "5. School Improvement plans"
+  },
+  {
+   "fieldname": "development_of_sip",
+   "fieldtype": "Table",
+   "label": "Development of SIP in consultation with the various stakeholders (parents, teachers, learners, SMC, foundation bodies, parish ",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "sip_developed",
+   "fieldtype": "Table",
+   "label": "SIP developed based on inspection recommendations and school self-evaluation reports. (Reports from TELA for schools under the programme)",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "timely_implementation",
+   "fieldtype": "Table",
+   "label": "Timely implementation and regular meetings to review and update the SIP",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "total_score_school_improvement",
+   "fieldtype": "Data",
+   "label": "Total mark score for the Indicator:"
+  },
+  {
+   "fieldname": "section_break_leadership_and_gov",
+   "fieldtype": "Section Break",
+   "label": "6. Leadership and governance"
+  },
+  {
+   "fieldname": "existence_of_shared_school",
+   "fieldtype": "Table",
+   "label": "Existence of a shared school mission and vision",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "smc_constituted",
+   "fieldtype": "Table",
+   "label": "SMC constituted according to guidelines and is functional",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "regular_meetings",
+   "fieldtype": "Table",
+   "label": "Regular meetings with the Prefects\u2019 body",
+   "options": "Observation"
+  },
+  {
+   "fieldname": "total_score_leadership_gov",
+   "fieldtype": "Int",
+   "label": "Total mark score for the indicator "
+  },
+  {
+   "fieldname": "over_judge_pillar2",
+   "fieldtype": "Data",
+   "label": "Overall judgement for the Domain "
+  },
+  {
+   "fieldname": "total_score_",
+   "fieldtype": "Data",
+   "label": " Total score "
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-03-19 12:30:28.669417",
+ "modified": "2022-03-22 23:51:05.755929",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Primary Inspection",
