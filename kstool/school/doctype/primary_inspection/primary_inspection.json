@@ -29,7 +29,25 @@
   "head_teacher_attendance_rate",
   "staff_attendance_rate",
   "section_break_2",
-  "number_of_teachers_deployed",
+  "no_of_teachers_deployed",
+  "enroll_at_begin",
+  "boys",
+  "column1",
+  "girls",
+  "column2",
+  "total",
+  "current_enrollment",
+  "boys1",
+  "column3",
+  "girls1",
+  "column4",
+  "total1",
+  "attendance_on_inspection",
+  "boys2",
+  "column6",
+  "girls2",
+  "column5",
+  "total2",
   "section_break_3",
   "teacher_pupil_ratio_lower",
   "teacher_pupil_ratio_upper",
@@ -271,12 +289,6 @@
   {
    "fieldname": "section_break_2",
    "fieldtype": "Section Break"
-  },
-  {
-   "default": "Number of teachers deployed\nClass\nNumber of streams",
-   "fieldname": "number_of_teachers_deployed",
-   "fieldtype": "Table",
-   "options": "Enrollment2"
   },
   {
    "fieldname": "section_break_3",
@@ -937,11 +949,100 @@
    "fieldname": "total_score_",
    "fieldtype": "Data",
    "label": " Total score "
+  },
+  {
+   "fieldname": "enroll_at_begin",
+   "fieldtype": "Section Break",
+   "label": "Enrolment at the beginning of the school year"
+  },
+  {
+   "fieldname": "boys",
+   "fieldtype": "Int",
+   "label": "Boys"
+  },
+  {
+   "fieldname": "girls",
+   "fieldtype": "Int",
+   "label": "Girls"
+  },
+  {
+   "fieldname": "column2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Int",
+   "label": "Total"
+  },
+  {
+   "fieldname": "current_enrollment",
+   "fieldtype": "Section Break",
+   "label": "Current enrollment (on day of the inspection)"
+  },
+  {
+   "fieldname": "boys1",
+   "fieldtype": "Int",
+   "label": "Boys"
+  },
+  {
+   "fieldname": "total1",
+   "fieldtype": "Int",
+   "label": "Total"
+  },
+  {
+   "fieldname": "column1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "girls1",
+   "fieldtype": "Int",
+   "label": "Girls"
+  },
+  {
+   "fieldname": "attendance_on_inspection",
+   "fieldtype": "Section Break",
+   "label": "Attendance on the day of the inspection"
+  },
+  {
+   "fieldname": "boys2",
+   "fieldtype": "Int",
+   "label": "Boys"
+  },
+  {
+   "fieldname": "column6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "girls2",
+   "fieldtype": "Int",
+   "label": "Girls"
+  },
+  {
+   "fieldname": "column5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total2",
+   "fieldtype": "Int",
+   "label": "Total"
+  },
+  {
+   "fieldname": "no_of_teachers_deployed",
+   "fieldtype": "Table",
+   "options": "Table1"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-03-22 23:51:05.755929",
+ "modified": "2022-03-24 23:44:41.770561",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Primary Inspection",

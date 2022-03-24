@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-03-24 20:37:58.263173",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "add",
+  "num1",
+  "num2",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "add",
+   "fieldtype": "Data",
+   "label": "ADD"
+  },
+  {
+   "fieldname": "num1",
+   "fieldtype": "Int",
+   "label": "Number1"
+  },
+  {
+   "fieldname": "num2",
+   "fieldtype": "Int",
+   "label": "Number2"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Int",
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-24 20:38:08.704541",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "DEMO",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
