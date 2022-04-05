@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-03 12:15:12.250219",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "kcca1",
+  "directorate1",
+  "primary_school_info",
+  "school_assets",
+  "school_facility",
+  "sch_land_info",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "kcca1",
+   "fieldtype": "Heading",
+   "label": "KAMPALA CAPITAL CITY AUTHORITY"
+  },
+  {
+   "fieldname": "directorate1",
+   "fieldtype": "Section Break",
+   "label": "DIRECTORATE EDUCATION AND SOCIAL SERVICES"
+  },
+  {
+   "fieldname": "primary_school_info",
+   "fieldtype": "Table",
+   "label": "Primary Schools Classroom Information 2020",
+   "options": "Dicts_School_Info"
+  },
+  {
+   "fieldname": "school_assets",
+   "fieldtype": "Section Break",
+   "label": "School Facility Asset Register And Requirement 2020"
+  },
+  {
+   "fieldname": "school_facility",
+   "fieldtype": "Table",
+   "options": "Dicts_School_Assets"
+  },
+  {
+   "fieldname": "sch_land_info",
+   "fieldtype": "Table",
+   "label": "SUMMARY OF SCHOOL LAND INFORMATION",
+   "options": "Dicts_Land_Info"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Primary Inspection 2",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-04-03 20:36:27.227837",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "Primary Inspection 2",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

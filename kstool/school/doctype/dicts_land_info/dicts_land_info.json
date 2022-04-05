@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-03 20:13:08.838805",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "division",
+  "no_of_schs",
+  "enrollment",
+  "foundation_body",
+  "land_size"
+ ],
+ "fields": [
+  {
+   "fieldname": "division",
+   "fieldtype": "Data",
+   "label": "Division"
+  },
+  {
+   "fieldname": "no_of_schs",
+   "fieldtype": "Int",
+   "label": "No. Of Schools"
+  },
+  {
+   "fieldname": "enrollment",
+   "fieldtype": "Data",
+   "label": "Enrollment"
+  },
+  {
+   "fieldname": "foundation_body",
+   "fieldtype": "Select",
+   "label": "Foundation Body",
+   "options": "Catholic\nCOU\nCommunity/Govt\nMuslim\nPentecostal\nSDA"
+  },
+  {
+   "fieldname": "land_size",
+   "fieldtype": "Data",
+   "label": "Land Size"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-04-03 20:13:08.838805",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "Dicts_Land_Info",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
