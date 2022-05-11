@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:ATT-{school}-{MM}-{DD}-{YY}-{###}",
- "creation": "2022-01-31 17:58:49.732234",
+ "creation": "2022-03-04 23:57:05.741209",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -45,7 +45,8 @@
   {
    "fieldname": "stream",
    "fieldtype": "Select",
-   "label": "Stream"
+   "label": "Stream",
+   "options": "A\nB\nC\nD"
   },
   {
    "fieldname": "teacher",
@@ -136,7 +137,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-09 08:10:58.463212",
+ "modified": "2022-04-13 14:38:24.786860",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Attendance",

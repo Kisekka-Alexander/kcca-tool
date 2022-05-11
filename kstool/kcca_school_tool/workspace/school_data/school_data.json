@@ -31,13 +31,14 @@
    "type": "Link"
   }
  ],
- "modified": "2022-05-10 15:58:09.059089",
+ "modified": "2022-05-10 15:58:41.469657",
  "modified_by": "Administrator",
- "module": "Setup",
+ "module": "KCCA School Tool",
  "name": "School Data",
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
+ "restrict_to_domain": "",
  "roles": [
   {
    "role": "Administrator"

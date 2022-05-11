@@ -174,7 +174,8 @@
    "fieldname": "school_emis_number",
    "fieldtype": "Int",
    "label": "School EMIS Number",
-   "non_negative": 1
+   "non_negative": 1,
+   "reqd": 1
   },
   {
    "fieldname": "school_contact_number",
@@ -1037,12 +1038,13 @@
   {
    "fieldname": "no_of_teachers_deployed",
    "fieldtype": "Table",
+   "label": "Number of Teachers Deployed",
    "options": "Table1"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-03-24 23:44:41.770561",
+ "modified": "2022-05-09 21:42:24.946004",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Primary Inspection",

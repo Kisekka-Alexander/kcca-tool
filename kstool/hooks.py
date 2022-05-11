@@ -10,14 +10,19 @@ app_email = "info@veritas-interactive.com"
 app_license = "MIT",
 app_logo_url = "/assets/kstool/logo.png"
 
+
+
+
+
+
 # Includes in <head>
 # ------------------
 
 # brand_html = '<div><img src="tennismart.png"> TennisMart</div>'
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/kstool/css/kstool.css"
-# app_include_js = "/assets/kstool/js/kstool.js"
+#app_include_css = "/assets/kstool/css/kstool.css"
+#app_include_js = "/assets/kstool/js/kstool.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/kstool/css/kstool.css"
