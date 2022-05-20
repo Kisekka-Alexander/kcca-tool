@@ -1,13 +1,16 @@
 {
  "charts": [
   {
-   "chart_name": "Number Of School"
+   "chart_name": "Number Of School",
+   "label": "No. Of Schools"
   },
   {
-   "chart_name": "Number Of Teachers"
+   "chart_name": "Number Of Teachers",
+   "label": "No. Of Teachers"
   },
   {
-   "chart_name": "Number of Inspections"
+   "chart_name": "Number of Inspections",
+   "label": "No. Of Inspections"
   }
  ],
  "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">School Data\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t</span>\",\"col\":12}}]",
@@ -31,7 +34,7 @@
    "type": "Link"
   }
  ],
- "modified": "2022-05-10 15:58:41.469657",
+ "modified": "2022-05-11 16:30:20.832151",
  "modified_by": "Administrator",
  "module": "KCCA School Tool",
  "name": "School Data",
@@ -52,6 +55,12 @@
    "label": "Number Of Schools",
    "link_to": "School",
    "type": "DocType"
+  },
+  {
+   "doc_view": "Dashboard",
+   "label": "Dashboard",
+   "link_to": "School",
+   "type": "Dashboard"
   }
  ],
  "title": "School Data"

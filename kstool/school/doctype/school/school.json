@@ -11,8 +11,8 @@
   "school_name",
   "category",
   "district",
-  "municipality",
   "division",
+  "municipality",
   "ward",
   "column_break_6",
   "amended_from",
@@ -40,7 +40,7 @@
   "column_break_33",
   "urban_or_rural",
   "founding_year",
-  "highest_class_in_school",
+  "highest_class",
   "use_status"
  ],
  "fields": [
@@ -210,12 +210,6 @@
    "label": "Founding Year"
   },
   {
-   "fieldname": "highest_class_in_school",
-   "fieldtype": "Select",
-   "label": "Highest Class in School",
-   "options": "S.1\nS.2\nS.3\nS.4\nS.5\nS.6"
-  },
-  {
    "fieldname": "use_status",
    "fieldtype": "Select",
    "label": "USE Status",
@@ -242,13 +236,19 @@
    "fieldname": "category",
    "fieldtype": "Select",
    "label": "Category",
-   "options": "Primary\nSecondary\nSpecial",
+   "options": "\nPrimary\nSecondary\nSpecial",
    "reqd": 1
+  },
+  {
+   "fieldname": "highest_class",
+   "fieldtype": "Select",
+   "label": "Highest Class in School"
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2022-05-11 06:06:31.757319",
+ "modified": "2022-05-18 15:06:36.151148",
  "modified_by": "Administrator",
  "module": "School",
  "name": "School",
@@ -266,6 +266,15 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Enforcement-Inpector",
+   "share": 1
   }
  ],
  "sort_field": "modified",
