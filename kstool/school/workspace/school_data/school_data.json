@@ -5,6 +5,10 @@
    "label": "Number Of Schools"
   },
   {
+   "chart_name": "Students By Gender",
+   "label": "Students By Gender"
+  },
+  {
    "chart_name": "Schools Per Division",
    "label": "Schools Per Division"
   },
@@ -17,7 +21,7 @@
    "label": "Teachers Per School"
   }
  ],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SCHOOL DATA</span>\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Number Of Schools\",\"col\":9}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Schools Per Division\",\"col\":8}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Teachers Per School\",\"col\":9}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Refugees Per School\",\"col\":9}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">KCCA CITY HALL</span>\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Number Of Schools\",\"col\":11}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Schools Per Division\",\"col\":11}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Teachers Per School\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Students By Gender\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Refugees Per School\",\"col\":12}}]",
  "creation": "2022-03-04 23:57:05.730406",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -38,7 +42,7 @@
    "type": "Link"
   }
  ],
- "modified": "2022-05-18 18:50:22.526190",
+ "modified": "2022-05-27 10:57:45.010384",
  "modified_by": "Administrator",
  "module": "School",
  "name": "School Data",
@@ -51,7 +55,7 @@
    "role": "Administrator"
   }
  ],
- "sequence_id": 2.0,
+ "sequence_id": 1.0,
  "shortcuts": [],
  "title": "School Data"
 }

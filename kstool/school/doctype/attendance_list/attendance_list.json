@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:ATT-{DD}-{MM}-{YY}",
+ "creation": "2022-06-03 18:23:31.741178",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "attendance",
+  "break1",
+  "ug_table",
+  "column1",
+  "refugees_table",
+  "overral_total"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "attendance",
+   "fieldtype": "Heading",
+   "label": "ATTENDANCE LIST"
+  },
+  {
+   "fieldname": "break1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ug_table",
+   "fieldtype": "Table",
+   "label": "Ugandans",
+   "options": "AttendanceTable",
+   "print_width": "10"
+  },
+  {
+   "fieldname": "column1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "refugees_table",
+   "fieldtype": "Table",
+   "label": "Refugees",
+   "options": "AttendanceTable2"
+  },
+  {
+   "bold": 1,
+   "fieldname": "overral_total",
+   "fieldtype": "Read Only",
+   "label": "OVERRAL TOTAL"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-03 19:54:56.692426",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "Attendance List",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HeadTeacher",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "School Headteacher",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "School Class Teacher",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

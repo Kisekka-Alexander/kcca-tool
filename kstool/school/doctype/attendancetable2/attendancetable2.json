@@ -1,47 +1,50 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2022-03-04 23:57:06.869074",
+ "creation": "2022-06-03 19:00:03.282322",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "student",
-  "subject",
-  "division"
+  "class",
+  "boys1",
+  "girls1",
+  "total1"
  ],
  "fields": [
   {
-   "fieldname": "student",
-   "fieldtype": "Link",
+   "fieldname": "boys1",
+   "fieldtype": "Int",
    "in_list_view": 1,
-   "label": "Student",
-   "options": "Enrollment",
-   "reqd": 1
+   "label": "Boys"
   },
   {
-   "fieldname": "subject",
-   "fieldtype": "Data",
+   "fieldname": "girls1",
+   "fieldtype": "Int",
    "in_list_view": 1,
-   "label": "Subject",
-   "reqd": 1
+   "label": "Girls"
   },
   {
-   "fieldname": "division",
+   "fieldname": "class",
    "fieldtype": "Select",
    "in_list_view": 1,
-   "label": "Division",
-   "options": "D1\nD2\nC3\nC4\nC5\nC6\nPass 7\nPass 8\nF9",
-   "reqd": 1
+   "label": "Class",
+   "options": "\nP1\nP2\nP3\nP4\nP5\nP6\nP7"
+  },
+  {
+   "fieldname": "total1",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-05-22 21:54:47.006230",
+ "modified": "2022-06-03 19:45:20.419496",
  "modified_by": "Administrator",
  "module": "School",
- "name": "Student Perfromace",
+ "name": "AttendanceTable2",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",

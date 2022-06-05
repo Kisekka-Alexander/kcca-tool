@@ -60,7 +60,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-05-18 12:29:41.522530",
+ "modified": "2022-05-23 13:28:16.284013",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Primary Inspection 2",
@@ -88,6 +88,7 @@
    "report": 1,
    "role": "Enforcement-Inpector",
    "share": 1,
+   "submit": 1,
    "write": 1
   }
  ],

@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-03 18:33:18.131131",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "class",
+  "boys",
+  "girls",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "boys",
+   "fieldtype": "Int",
+   "label": "Boys"
+  },
+  {
+   "fieldname": "girls",
+   "fieldtype": "Int",
+   "label": "Girls"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Int",
+   "label": "Total"
+  },
+  {
+   "fieldname": "class",
+   "fieldtype": "Select",
+   "label": "Class",
+   "options": "\nP1\nP2\nP3\nP4\nP5\nP6\nP7"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-05 18:01:25.454224",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "AttendanceTable",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

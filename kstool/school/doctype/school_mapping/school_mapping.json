@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:KCCA-SCH-{###}",
- "creation": "2022-02-08 10:44:08.055594",
+ "creation": "2022-03-04 23:57:06.094062",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -10,7 +10,6 @@
   "school_name",
   "division",
   "column_break_3",
-  "division_name",
   "category",
   "section_break_6",
   "contacts"
@@ -31,12 +30,6 @@
    "label": "Division",
    "options": "Division",
    "reqd": 1
-  },
-  {
-   "fetch_from": "division.school_name",
-   "fieldname": "division_name",
-   "fieldtype": "Data",
-   "label": "Division Name"
   },
   {
    "fieldname": "category",
@@ -61,7 +54,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-08 10:47:53.077386",
+ "modified": "2022-05-22 15:30:16.038469",
  "modified_by": "Administrator",
  "module": "School",
  "name": "School Mapping",
