@@ -1,0 +1,965 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{school_name}-ENROLMENT-{YY}",
+ "creation": "2022-06-16 16:08:29.050190",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "school_name",
+  "sec",
+  "ugs_tab",
+  "ugandans",
+  "sec001",
+  "p1",
+  "ug_p1_holder",
+  "column1",
+  "ug_boysp1",
+  "column2",
+  "ug_girlsp1",
+  "column3",
+  "total_ug_p1",
+  "section1",
+  "p2",
+  "ug_p2_holder",
+  "col4",
+  "ug_boysp2",
+  "col6",
+  "ug_girlsp2",
+  "col7",
+  "total_ug_p2",
+  "section2",
+  "p3",
+  "ug_p3_holder",
+  "col8",
+  "ug_boysp3",
+  "col9",
+  "ug_girlsp3",
+  "col10",
+  "total_ug_p3",
+  "section3",
+  "p4",
+  "ug_p4_holder",
+  "col11",
+  "ug_boysp4",
+  "col12",
+  "ug_girlsp4",
+  "col13",
+  "total_ug_p4",
+  "section4",
+  "p5",
+  "ug_p5_holder",
+  "col14",
+  "ug_boysp5",
+  "col15",
+  "ug_girlsp5",
+  "col16",
+  "total_ug_p5",
+  "sec5",
+  "p6",
+  "ug_p6_holder",
+  "col016",
+  "ug_boysp6",
+  "col17",
+  "ug_girlsp6",
+  "col18",
+  "total_ug_p6",
+  "sec6",
+  "p7",
+  "ug_p7_holder",
+  "col19",
+  "ug_boysp7",
+  "col20",
+  "ug_girlsp7",
+  "col21",
+  "total_ug_p7",
+  "sec7",
+  "total_ug_boys",
+  "total_ug_girls",
+  "total_ugs",
+  "non_ug_tab",
+  "section_break3",
+  "section_break4",
+  "non_ug",
+  "sec44",
+  "rp1",
+  "non_ug_p1",
+  "col22",
+  "non_ug_bp1",
+  "col23",
+  "non_ug_gp1",
+  "col24",
+  "tot_non_ugp1",
+  "sec9",
+  "rp2",
+  "non_ug_p2",
+  "col25",
+  "non_ug_bp2",
+  "col26",
+  "non_ug_gp2",
+  "col27",
+  "tot_non_ugp2",
+  "sec10",
+  "rp3",
+  "non_ug_p3",
+  "col28",
+  "non_ug_bp3",
+  "col29",
+  "non_ug_gp3",
+  "col30",
+  "tot_non_ugp3",
+  "sec11",
+  "rp4",
+  "non_ug_p4",
+  "col31",
+  "non_ug_bp4",
+  "col32",
+  "non_ug_gp4",
+  "col33",
+  "tot_non_ugp4",
+  "sec12",
+  "rp5",
+  "non_ug_p5",
+  "col34",
+  "non_ug_bp5",
+  "col35",
+  "non_ug_gp5",
+  "col36",
+  "tot_non_ugp5",
+  "sec13",
+  "rp6",
+  "non_ug_p6",
+  "col37",
+  "non_ug_bp6",
+  "col38",
+  "non_ug_gp6",
+  "col39",
+  "tot_non_ugp6",
+  "sec14",
+  "rp7",
+  "non_ug_p7",
+  "col40",
+  "non_ug_bp7",
+  "col41",
+  "non_ug_gp7",
+  "col42",
+  "tot_non_ugp7",
+  "sec15",
+  "tot_boys_non_ug",
+  "tot_girls_non_ug",
+  "tot_non_ug",
+  "amended_from",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "school_name",
+   "fieldtype": "Link",
+   "label": "School",
+   "options": "School"
+  },
+  {
+   "fieldname": "sec",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ugs_tab",
+   "fieldtype": "Tab Break",
+   "label": "UGANDANS"
+  },
+  {
+   "fieldname": "ugandans",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "UGANDANS"
+  },
+  {
+   "fieldname": "sec001",
+   "fieldtype": "Section Break"
+  },
+  {
+   "bold": 1,
+   "fieldname": "p1",
+   "fieldtype": "Heading",
+   "label": "P1"
+  },
+  {
+   "fieldname": "ug_p1_holder",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P1"
+  },
+  {
+   "fieldname": "column1",
+   "fieldtype": "Column Break",
+   "no_copy": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "ug_boysp1",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Boys",
+   "no_copy": 1,
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ug_girlsp1",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_ug_p1",
+   "fieldtype": "Int",
+   "label": "Total",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "section1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "bold": 1,
+   "fieldname": "p2",
+   "fieldtype": "Heading",
+   "label": "P2"
+  },
+  {
+   "fieldname": "ug_p2_holder",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P2"
+  },
+  {
+   "fieldname": "col4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ug_boysp2",
+   "fieldtype": "Int",
+   "label": "Boys",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ug_girlsp2",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_ug_p2",
+   "fieldtype": "Int",
+   "label": "Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "p3",
+   "fieldtype": "Heading",
+   "label": "P3"
+  },
+  {
+   "fieldname": "ug_p3_holder",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P3"
+  },
+  {
+   "fieldname": "col8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ug_boysp3",
+   "fieldtype": "Int",
+   "label": "Boys",
+   "reqd": 1
+  },
+  {
+   "fieldname": "col9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ug_girlsp3",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "reqd": 1
+  },
+  {
+   "fieldname": "col10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_ug_p3",
+   "fieldtype": "Int",
+   "label": "Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "p4",
+   "fieldtype": "Heading",
+   "label": "P4"
+  },
+  {
+   "fieldname": "ug_p4_holder",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P4"
+  },
+  {
+   "fieldname": "col11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ug_boysp4",
+   "fieldtype": "Int",
+   "label": "Boys",
+   "reqd": 1
+  },
+  {
+   "fieldname": "col12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ug_girlsp4",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "reqd": 1
+  },
+  {
+   "fieldname": "col13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_ug_p4",
+   "fieldtype": "Int",
+   "label": "Total",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "section4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "p5",
+   "fieldtype": "Heading",
+   "label": "P5"
+  },
+  {
+   "fieldname": "ug_p5_holder",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P5"
+  },
+  {
+   "fieldname": "col14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ug_boysp5",
+   "fieldtype": "Int",
+   "label": "Boys",
+   "reqd": 1
+  },
+  {
+   "fieldname": "col15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ug_girlsp5",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "reqd": 1
+  },
+  {
+   "fieldname": "col16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_ug_p5",
+   "fieldtype": "Int",
+   "label": "Total",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "sec5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "p6",
+   "fieldtype": "Heading",
+   "label": "P6"
+  },
+  {
+   "fieldname": "ug_p6_holder",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P6"
+  },
+  {
+   "fieldname": "col016",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ug_boysp6",
+   "fieldtype": "Int",
+   "label": "Boys",
+   "reqd": 1
+  },
+  {
+   "fieldname": "col17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ug_girlsp6",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "reqd": 1
+  },
+  {
+   "fieldname": "col18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_ug_p6",
+   "fieldtype": "Int",
+   "label": "Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sec6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "p7",
+   "fieldtype": "Heading",
+   "label": "P7"
+  },
+  {
+   "fieldname": "ug_p7_holder",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P7"
+  },
+  {
+   "fieldname": "col19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ug_boysp7",
+   "fieldtype": "Int",
+   "label": "Boys",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ug_girlsp7",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_ug_p7",
+   "fieldtype": "Int",
+   "label": "Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sec7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_ug_boys",
+   "fieldtype": "Int",
+   "label": "Total Boys (Ugandans)",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_ug_girls",
+   "fieldtype": "Int",
+   "label": "Total Girls (Ugandans)",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_ugs",
+   "fieldtype": "Int",
+   "label": "Total Ugandans",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "non_ug_tab",
+   "fieldtype": "Tab Break",
+   "label": "NON-UGANDANS"
+  },
+  {
+   "fieldname": "section_break3",
+   "fieldtype": "Section Break",
+   "label": "NON-UGANDANS"
+  },
+  {
+   "fieldname": "section_break4",
+   "fieldtype": "Section Break",
+   "no_copy": 1,
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "non_ug",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "NON-UGANDANS"
+  },
+  {
+   "fieldname": "sec44",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rp1",
+   "fieldtype": "Heading",
+   "label": "P1"
+  },
+  {
+   "fieldname": "non_ug_p1",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P1"
+  },
+  {
+   "fieldname": "col22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_bp1",
+   "fieldtype": "Int",
+   "label": "Boys",
+   "reqd": 1
+  },
+  {
+   "fieldname": "col23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_gp1",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "reqd": 1
+  },
+  {
+   "fieldname": "col24",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tot_non_ugp1",
+   "fieldtype": "Int",
+   "label": "Total",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "sec9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rp2",
+   "fieldtype": "Heading",
+   "label": "P2"
+  },
+  {
+   "fieldname": "non_ug_p2",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P2"
+  },
+  {
+   "fieldname": "col25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_bp2",
+   "fieldtype": "Int",
+   "label": "Boys",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col26",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_gp2",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tot_non_ugp2",
+   "fieldtype": "Int",
+   "label": "Total",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "sec10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rp3",
+   "fieldtype": "Heading",
+   "label": "P3"
+  },
+  {
+   "fieldname": "non_ug_p3",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P3"
+  },
+  {
+   "fieldname": "col28",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_bp3",
+   "fieldtype": "Int",
+   "label": "Boys",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_gp3",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tot_non_ugp3",
+   "fieldtype": "Int",
+   "label": "Total",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "sec11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rp4",
+   "fieldtype": "Heading",
+   "label": "P4"
+  },
+  {
+   "fieldname": "non_ug_p4",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P4"
+  },
+  {
+   "fieldname": "col31",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_bp4",
+   "fieldtype": "Int",
+   "label": "Boys",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_gp4",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tot_non_ugp4",
+   "fieldtype": "Int",
+   "label": "Total",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "sec12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rp5",
+   "fieldtype": "Heading",
+   "label": "P5"
+  },
+  {
+   "fieldname": "non_ug_p5",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P5"
+  },
+  {
+   "fieldname": "col34",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_bp5",
+   "fieldtype": "Int",
+   "label": "Boys",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_gp5",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col36",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tot_non_ugp5",
+   "fieldtype": "Int",
+   "label": "Total",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "sec13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rp6",
+   "fieldtype": "Heading",
+   "label": "P6"
+  },
+  {
+   "fieldname": "non_ug_p6",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P6"
+  },
+  {
+   "fieldname": "col37",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_bp6",
+   "fieldtype": "Int",
+   "label": "Boys",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col38",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_gp6",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tot_non_ugp6",
+   "fieldtype": "Int",
+   "label": "Total",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "sec14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rp7",
+   "fieldtype": "Heading",
+   "label": "P7",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "non_ug_p7",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "P7"
+  },
+  {
+   "fieldname": "col40",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_bp7",
+   "fieldtype": "Int",
+   "label": "Boys",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col41",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_ug_gp7",
+   "fieldtype": "Int",
+   "label": "Girls",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col42",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tot_non_ugp7",
+   "fieldtype": "Int",
+   "label": "Total",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "sec15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tot_boys_non_ug",
+   "fieldtype": "Int",
+   "label": "Total Boys (Non-Ugandans)",
+   "no_copy": 1,
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "tot_girls_non_ug",
+   "fieldtype": "Int",
+   "label": "Total Girls (Non-Ugandans)",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "tot_non_ug",
+   "fieldtype": "Int",
+   "label": "Total Non-Ugandans",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "SCHOOL ATTENDANCE",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "SCHOOL ENROLMENT",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-06-16 16:08:29.050190",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "SCHOOL ENROLMENT",
+ "name_case": "UPPER CASE",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

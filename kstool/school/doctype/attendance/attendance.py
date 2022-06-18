@@ -41,5 +41,3 @@ class Attendance(Document):
 		self.female_absent = female_absent
 		self.male_absent = male_absent
 		self.total_count = present + absent
-
-

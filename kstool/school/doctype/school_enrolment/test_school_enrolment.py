@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestAttendanceList(unittest.TestCase):
+class TestSCHOOLENROLMENT(unittest.TestCase):
 	pass
