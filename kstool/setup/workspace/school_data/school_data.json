@@ -1,15 +1,37 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"School Data\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}}]",
- "creation": "2022-01-07 05:15:32.878860",
+ "charts": [
+  {
+   "chart_name": "Number Of School"
+  },
+  {
+   "chart_name": "Number Of Teachers"
+  },
+  {
+   "chart_name": "Number of Inspections"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">School Data\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t</span>\",\"col\":12}}]",
+ "creation": "2022-03-04 23:57:05.730406",
  "docstatus": 0,
  "doctype": "Workspace",
  "hide_custom": 0,
  "icon": "liabilities",
  "idx": 0,
  "label": "School Data",
- "links": [],
- "modified": "2022-02-01 08:35:24.841995",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Number Of Schools",
+   "link_count": 0,
+   "link_to": "School",
+   "link_type": "DocType",
+   "onboard": 0,
+   "only_for": "",
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-05-10 15:58:09.059089",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "School Data",
@@ -18,14 +40,15 @@
  "public": 1,
  "roles": [
   {
-   "role": "System Manager"
+   "role": "Administrator"
   }
  ],
  "sequence_id": 1.0,
  "shortcuts": [
   {
-   "doc_view": "List",
-   "label": "Schools",
+   "color": "#ECAD4B",
+   "doc_view": "Dashboard",
+   "label": "Number Of Schools",
    "link_to": "School",
    "type": "DocType"
   }

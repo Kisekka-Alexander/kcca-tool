@@ -1,7 +1,8 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2022-02-09 12:56:16.790874",
+ "autoname": "field:school_name",
+ "creation": "2022-03-04 23:57:05.929421",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -51,7 +52,8 @@
    "fieldname": "school_name",
    "fieldtype": "Data",
    "label": "School Name",
-   "read_only": 1
+   "read_only": 1,
+   "unique": 1
   },
   {
    "fieldname": "classrooms_section",
@@ -213,10 +215,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-09 13:23:12.039610",
+ "modified": "2022-05-22 15:50:22.273791",
  "modified_by": "Administrator",
  "module": "School",
  "name": "School Infrastructure",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -228,6 +231,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Enforcement-Inpector",
    "share": 1,
    "write": 1
   }

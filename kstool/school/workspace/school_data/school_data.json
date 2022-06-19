@@ -1,0 +1,53 @@
+{
+ "charts": [
+  {
+   "chart_name": "Number Of School",
+   "label": "Number Of Schools"
+  },
+  {
+   "chart_name": "Schools Per Division",
+   "label": "Schools Per Division"
+  },
+  {
+   "chart_name": "Number of Refugees",
+   "label": "Refugees Per School"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">KCCA CITY HALL</span>\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Number Of Schools\",\"col\":11}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Schools Per Division\",\"col\":11}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Refugees Per School\",\"col\":12}}]",
+ "creation": "2022-03-04 23:57:05.730406",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "liabilities",
+ "idx": 0,
+ "label": "School Data",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Number Of Schools",
+   "link_count": 0,
+   "link_to": "School",
+   "link_type": "DocType",
+   "onboard": 0,
+   "only_for": "",
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-06-18 12:11:13.827349",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "School Data",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "restrict_to_domain": "",
+ "roles": [
+  {
+   "role": "Administrator"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [],
+ "title": "School Data"
+}

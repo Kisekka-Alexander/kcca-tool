@@ -24,7 +24,7 @@ frappe.ui.form.on('Primary Inspection', {
 
 	// Attendance on the day of the inspection
 	boys2: function(frm){
-		frm.doc.total2 = frm.doc.boys2+ frm.doc.girls2;
+		frm.doc.total2 = frm.doc.boys2 + frm.doc.girls2;
 		refresh_field("total2");
   },
    girls2: function(frm){

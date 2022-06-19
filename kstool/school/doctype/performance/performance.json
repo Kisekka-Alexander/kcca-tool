@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:PERF-{SCH}-{YY}-{###}",
- "creation": "2022-01-20 11:11:36.302256",
+ "creation": "2022-03-04 23:57:07.360709",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -76,7 +76,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-01-31 17:58:28.366010",
+ "modified": "2022-05-22 22:02:37.479523",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Performance",
@@ -94,6 +94,48 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "School Class Teacher",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "School Headteacher",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "UNHCR",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "NRC",
+   "share": 1
   }
  ],
  "sort_field": "modified",

@@ -1,0 +1,67 @@
+{
+ "charts": [
+  {
+   "chart_name": "Number Of School",
+   "label": "No. Of Schools"
+  },
+  {
+   "chart_name": "Number Of Teachers",
+   "label": "No. Of Teachers"
+  },
+  {
+   "chart_name": "Number of Inspections",
+   "label": "No. Of Inspections"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">School Data\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t</span>\",\"col\":12}}]",
+ "creation": "2022-03-04 23:57:05.730406",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "liabilities",
+ "idx": 0,
+ "label": "School Data",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Number Of Schools",
+   "link_count": 0,
+   "link_to": "School",
+   "link_type": "DocType",
+   "onboard": 0,
+   "only_for": "",
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-05-11 16:30:20.832151",
+ "modified_by": "Administrator",
+ "module": "KCCA School Tool",
+ "name": "School Data",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "restrict_to_domain": "",
+ "roles": [
+  {
+   "role": "Administrator"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "#ECAD4B",
+   "doc_view": "Dashboard",
+   "label": "Number Of Schools",
+   "link_to": "School",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "Dashboard",
+   "label": "Dashboard",
+   "link_to": "School",
+   "type": "Dashboard"
+  }
+ ],
+ "title": "School Data"
+}

@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:TCH-{school}-{school_class}-{#####}",
- "creation": "2022-02-08 11:13:20.248471",
+ "creation": "2022-03-04 23:57:06.966778",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -29,6 +29,7 @@
   "section_break_13",
   "highest_level_of_education",
   "highest_teaching_professional__qualifications",
+  "academic_docs",
   "mps_salary_scale",
   "column_break_17",
   "type_of_training_last_year",
@@ -214,12 +215,20 @@
    "fieldname": "on_payroll",
    "fieldtype": "Check",
    "label": "On Payroll"
+  },
+  {
+   "bold": 1,
+   "description": "Attach your academic documents in PDF format",
+   "fieldname": "academic_docs",
+   "fieldtype": "Attach",
+   "label": "Academic Documents",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2022-02-09 12:35:26.544233",
+ "modified": "2022-05-18 18:36:25.720762",
  "modified_by": "Administrator",
  "module": "School",
  "name": "School Teacher",
@@ -290,5 +299,6 @@
  "sort_order": "DESC",
  "states": [],
  "title_field": "teacher_name",
- "track_changes": 1
+ "track_changes": 1,
+ "track_views": 1
 }

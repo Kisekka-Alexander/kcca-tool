@@ -15,9 +15,6 @@
   "ht_gender",
   "inspection_date",
   "name_of_school",
-  "district",
-  "county_municipality",
-  "sub_county_division",
   "school_status",
   "location",
   "registration_status",
@@ -167,14 +164,16 @@
   "learners_are_attentive",
   "learners_listen",
   "indicator_score7",
-  "overall_judgement_for_the_domain"
+  "overall_judgement_for_the_domain",
+  "amended_from"
  ],
  "fields": [
   {
    "fieldname": "school_emis_number",
    "fieldtype": "Int",
    "label": "School EMIS Number",
-   "non_negative": 1
+   "non_negative": 1,
+   "reqd": 1
   },
   {
    "fieldname": "school_contact_number",
@@ -217,21 +216,6 @@
    "options": "School",
    "reqd": 1,
    "unique": 1
-  },
-  {
-   "fieldname": "district",
-   "fieldtype": "Data",
-   "label": "District"
-  },
-  {
-   "fieldname": "county_municipality",
-   "fieldtype": "Data",
-   "label": "County/Municipality"
-  },
-  {
-   "fieldname": "sub_county_division",
-   "fieldtype": "Data",
-   "label": "Sub-county/Division"
   },
   {
    "fieldname": "school_status",
@@ -1037,12 +1021,23 @@
   {
    "fieldname": "no_of_teachers_deployed",
    "fieldtype": "Table",
+   "label": "Number of Teachers Deployed",
    "options": "Table1"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Primary Inspection",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2022-03-24 23:44:41.770561",
+ "modified": "2022-05-18 18:26:37.963478",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Primary Inspection",
@@ -1059,6 +1054,28 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "NRC",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Enforcement-Inpector",
+   "select": 1,
    "share": 1,
    "write": 1
   }

@@ -6,7 +6,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "kcca1",
+  "kcca",
   "directorate1",
   "primary_school_info",
   "school_assets",
@@ -15,11 +15,6 @@
   "amended_from"
  ],
  "fields": [
-  {
-   "fieldname": "kcca1",
-   "fieldtype": "Heading",
-   "label": "KAMPALA CAPITAL CITY AUTHORITY"
-  },
   {
    "fieldname": "directorate1",
    "fieldtype": "Section Break",
@@ -48,6 +43,11 @@
    "options": "Dicts_Land_Info"
   },
   {
+   "fieldname": "kcca",
+   "fieldtype": "Heading",
+   "label": "KAMPALA CAPITAL CITY AUTHORITY"
+  },
+  {
    "fieldname": "amended_from",
    "fieldtype": "Link",
    "label": "Amended From",
@@ -60,7 +60,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-04-03 20:36:27.227837",
+ "modified": "2022-05-23 13:28:16.284013",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Primary Inspection 2",
@@ -76,6 +76,19 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Enforcement-Inpector",
+   "share": 1,
+   "submit": 1,
    "write": 1
   }
  ],

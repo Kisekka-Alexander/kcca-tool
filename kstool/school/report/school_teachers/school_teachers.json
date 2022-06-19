@@ -1,0 +1,42 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2022-05-22 14:54:20.070087",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "modified": "2022-05-22 14:54:20.070087",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "School Teachers",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "School Teacher",
+ "report_name": "School Teachers",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "School Class Teacher"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "School Headteacher Self Service"
+  },
+  {
+   "role": "School Class Teacher Self Service"
+  },
+  {
+   "role": "School Headteacher"
+  },
+  {
+   "role": "HeadTeacher"
+  }
+ ]
+}

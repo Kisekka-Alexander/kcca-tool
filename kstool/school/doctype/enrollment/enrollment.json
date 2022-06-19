@@ -3,7 +3,7 @@
  "allow_import": 1,
  "allow_rename": 1,
  "autoname": "format:{school}-KS-{#####}",
- "creation": "2022-01-29 13:16:21.822210",
+ "creation": "2022-03-04 23:57:06.209234",
  "description": "Student/Pupil Enrollment",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -25,7 +25,8 @@
   "residence",
   "is_special_needs",
   "special_needs_details",
-  "status"
+  "status",
+  "amended_from"
  ],
  "fields": [
   {
@@ -137,11 +138,20 @@
    "label": "Status",
    "options": "Active\nSuspended\nTransfered\nDropped Out",
    "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Enrollment",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-09 12:43:31.603555",
+ "modified": "2022-05-22 21:33:21.612982",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Enrollment",
@@ -180,6 +190,24 @@
    "read": 1,
    "report": 1,
    "role": "School Headteacher",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "NRC",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "UNHCR",
    "share": 1
   }
  ],
