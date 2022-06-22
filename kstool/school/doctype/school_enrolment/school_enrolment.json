@@ -149,9 +149,7 @@
   "sec15",
   "tot_boys_non_ug",
   "tot_girls_non_ug",
-  "tot_non_ug",
-  "amended_from",
-  "amended_from"
+  "tot_non_ug"
  ],
  "fields": [
   {
@@ -913,31 +911,13 @@
    "label": "Total Non-Ugandans",
    "non_negative": 1,
    "read_only": 1
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "SCHOOL ATTENDANCE",
-   "print_hide": 1,
-   "read_only": 1
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "SCHOOL ENROLMENT",
-   "print_hide": 1,
-   "read_only": 1
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-06-16 16:08:29.050190",
+ "modified": "2022-06-22 00:29:29.160415",
  "modified_by": "Administrator",
  "module": "School",
  "name": "SCHOOL ENROLMENT",
@@ -954,6 +934,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "School Headteacher",
    "share": 1,
    "write": 1
   }

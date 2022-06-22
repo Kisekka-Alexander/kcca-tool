@@ -1,5 +1,4 @@
 {
- "_comments": "[{\"comment\": \"<div class=\\\"ql-editor read-mode\\\"><p>School Attendance Tool</p></div>\", \"by\": \"Administrator\", \"name\": \"2e8028f0c6\"}]",
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
@@ -9,9 +8,8 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "school_name",
-  "sec",
   "ugs_tab",
+  "school_name",
   "ugandans",
   "sec001",
   "p1",
@@ -307,7 +305,6 @@
   {
    "fieldname": "ug_p2_holder",
    "fieldtype": "Int",
-   "hidden": 1,
    "label": "P2"
   },
   {
@@ -382,10 +379,6 @@
   },
   {
    "fieldname": "section3",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "sec",
    "fieldtype": "Section Break"
   },
   {
@@ -876,22 +869,19 @@
    "fieldtype": "Int",
    "label": "Total Boys (Non-Ugandans)",
    "no_copy": 1,
-   "non_negative": 1,
-   "read_only": 1
+   "non_negative": 1
   },
   {
    "fieldname": "tot_girls_non_ug",
    "fieldtype": "Int",
    "label": "Total Girls (Non-Ugandans)",
-   "non_negative": 1,
-   "read_only": 1
+   "non_negative": 1
   },
   {
    "fieldname": "tot_non_ug",
    "fieldtype": "Int",
    "label": "Total Non-Ugandans",
-   "non_negative": 1,
-   "read_only": 1
+   "non_negative": 1
   },
   {
    "fieldname": "sec15",
@@ -928,7 +918,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-06-18 11:19:37.478230",
+ "modified": "2022-06-22 17:11:55.163252",
  "modified_by": "Administrator",
  "module": "School",
  "name": "SCHOOL ATTENDANCE",
@@ -937,16 +927,13 @@
  "owner": "Administrator",
  "permissions": [
   {
-   "create": 1,
-   "delete": 1,
    "email": 1,
    "export": 1,
    "print": 1,
    "read": 1,
    "report": 1,
    "role": "System Manager",
-   "share": 1,
-   "write": 1
+   "share": 1
   },
   {
    "create": 1,
@@ -957,6 +944,25 @@
    "read": 1,
    "report": 1,
    "role": "School Headteacher",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "NRC",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Enforcement-Inpector",
    "share": 1,
    "write": 1
   }
