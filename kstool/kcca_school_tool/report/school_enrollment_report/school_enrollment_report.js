@@ -9,15 +9,14 @@ frappe.query_reports["School Enrollment Report"] = {
             fieldname: 'nationality',
             label: __('Nationality'),
             fieldtype: 'Link',
-            options: ['Country'],
-            default: 'Uganda'
+            options: 'Country'
            
         },
 		{
             fieldname: 'sex',
             label: __('Gender'),
-            fieldtype: 'Select',
-            options: ['All','Male','Female']
+            fieldtype: 'Link',
+            options: 'Gender'
            
         },
 		{
@@ -25,7 +24,14 @@ frappe.query_reports["School Enrollment Report"] = {
 			label: __('School'),
 			fieldtype: 'Link',
 			options: 'School'
+		},
+		{
+			fieldname: 'division',
+			label: __('Division'),
+			fieldtype: 'Link',
+			options: 'Division'
 		}
+
 
 
 	]
