@@ -1,6 +1,11 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>DASHBOARD</b></span>\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>REFUGEES INFORMATION</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Attendance\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "charts": [
+  {
+   "chart_name": "Attendances",
+   "label": "Attendance Demographic"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>DASHBOARD</b></span>\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>REFUGEES INFORMATION</b></span>\",\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendances\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Enrollments\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Attendance Demographic\",\"col\":6}}]",
  "creation": "2022-05-11 16:57:59.597319",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -317,28 +322,9 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Attendance",
-   "link_count": 1,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Attendance",
-   "link_count": 0,
-   "link_to": "SCHOOL ATTENDANCE",
-   "link_type": "DocType",
-   "onboard": 0,
-   "only_for": "",
-   "type": "Link"
   }
  ],
- "modified": "2022-06-22 10:52:48.946891",
+ "modified": "2022-06-27 19:35:57.597724",
  "modified_by": "Administrator",
  "module": "School",
  "name": "PARTNERS",
@@ -355,7 +341,24 @@
    "role": "UNHCR"
   }
  ],
- "sequence_id": 2.0,
- "shortcuts": [],
+ "sequence_id": 6.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Attendances",
+   "link_to": "SCHOOL ATTENDANCE",
+   "stats_filter": "{\"workflow_state\":[\"=\",\"Approved\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Enrollments",
+   "link_to": "SCHOOL ENROLMENT",
+   "stats_filter": "{\"workflow_state\":[\"=\",\"Approved\"]}",
+   "type": "DocType"
+  }
+ ],
  "title": "PARTNERS"
 }

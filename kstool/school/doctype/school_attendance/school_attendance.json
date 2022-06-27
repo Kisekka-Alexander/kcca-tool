@@ -918,7 +918,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-06-22 17:11:55.163252",
+ "modified": "2022-06-27 17:15:14.582884",
  "modified_by": "Administrator",
  "module": "School",
  "name": "SCHOOL ATTENDANCE",
@@ -954,6 +954,17 @@
    "read": 1,
    "report": 1,
    "role": "NRC",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "NRC",
    "share": 1
   },
   {
@@ -963,6 +974,16 @@
    "read": 1,
    "report": 1,
    "role": "Enforcement-Inpector",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "KCCA Super Admin",
    "share": 1,
    "write": 1
   }

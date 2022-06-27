@@ -1,37 +1,27 @@
 {
  "charts": [],
  "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SCHOOL MANAGEMENT</span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Class Management\",\"col\":4}}]",
- "creation": "2022-06-21 23:02:59.945122",
+ "creation": "2022-06-27 18:40:23.755162",
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "",
+ "icon": "menu",
  "idx": 0,
- "label": "SCHOOL MGT",
+ "label": "Attendances",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
    "label": "Class Management",
-   "link_count": 2,
+   "link_count": 1,
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Enrollments",
-   "link_count": 0,
-   "link_to": "SCHOOL ENROLMENT",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Attendance",
+   "label": "Create Attendance",
    "link_count": 0,
    "link_to": "SCHOOL ATTENDANCE",
    "link_type": "DocType",
@@ -39,12 +29,12 @@
    "type": "Link"
   }
  ],
- "modified": "2022-06-27 17:29:36.162954",
+ "modified": "2022-06-27 18:59:11.761259",
  "modified_by": "Administrator",
  "module": "School",
- "name": "SCHOOL MGT",
+ "name": "Attendances",
  "owner": "Administrator",
- "parent_page": "",
+ "parent_page": "SCHOOL MGT",
  "public": 1,
  "quick_lists": [],
  "roles": [
@@ -52,7 +42,7 @@
    "role": "School Headteacher"
   }
  ],
- "sequence_id": 8.0,
+ "sequence_id": 8.2,
  "shortcuts": [],
- "title": "SCHOOL MGT"
+ "title": "Attendances"
 }

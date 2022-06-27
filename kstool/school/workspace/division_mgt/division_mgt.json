@@ -1,14 +1,14 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"DIVISION MGT\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"SCHOOL MANAGEMENT\",\"col\":6}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"REPORTS\",\"col\":5}}]",
- "creation": "2022-06-22 10:52:08.715078",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"DIVISION MGT\",\"col\":4}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Divisions Information</b></span>\",\"col\":12}}]",
+ "creation": "2022-06-26 17:30:47.533081",
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
  "icon": "table_2",
  "idx": 0,
- "label": "KCCA CITY HALL",
+ "label": "Division Mgt",
  "links": [
   {
    "dependencies": "",
@@ -321,36 +321,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "SCHOOL MANAGEMENT",
-   "link_count": 2,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Create School",
-   "link_count": 0,
-   "link_to": "School",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Create Head Teacher",
-   "link_count": 0,
-   "link_to": "School Teacher",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "DIVISION MGT",
    "link_count": 3,
+   "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
   },
@@ -383,52 +356,14 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "REPORTS",
-   "link_count": 3,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Schools",
-   "link_count": 0,
-   "link_to": "SCHOOL ATTENDANCE",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Enrollments",
-   "link_count": 0,
-   "link_to": "SCHOOL ATTENDANCE",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Attendances",
-   "link_count": 0,
-   "link_to": "SCHOOL ATTENDANCE",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
   }
  ],
- "modified": "2022-06-27 17:29:35.632153",
+ "modified": "2022-06-27 17:29:35.725925",
  "modified_by": "Administrator",
  "module": "School",
- "name": "KCCA CITY HALL",
+ "name": "Division Mgt",
  "owner": "Administrator",
- "parent_page": "",
+ "parent_page": "KCCA CITY HALL",
  "public": 1,
  "quick_lists": [],
  "restrict_to_domain": "",
@@ -440,7 +375,7 @@
    "role": "KCCA Super Admin"
   }
  ],
- "sequence_id": 2.0,
+ "sequence_id": 3.0,
  "shortcuts": [],
- "title": "KCCA CITY HALL"
+ "title": "Division Mgt"
 }

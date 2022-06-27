@@ -1,0 +1,38 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\">ENROLLMENT MGT</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Enrollments\",\"col\":3}}]",
+ "creation": "2022-06-27 19:03:07.818804",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "milestone",
+ "idx": 0,
+ "label": "Enrollment-Insp",
+ "links": [],
+ "modified": "2022-06-27 19:05:37.117341",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "Enrollment-Insp",
+ "owner": "Administrator",
+ "parent_page": "INSPECTOR",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Enforcement-Inpector"
+  }
+ ],
+ "sequence_id": 7.1,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Enrollments",
+   "link_to": "SCHOOL ENROLMENT",
+   "stats_filter": "{\"workflow_state\":[\"=\",\"Pending\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "Enrollment-Insp"
+}

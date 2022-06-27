@@ -1,14 +1,14 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"DIVISION MGT\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"SCHOOL MANAGEMENT\",\"col\":6}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"REPORTS\",\"col\":5}}]",
- "creation": "2022-06-22 10:52:08.715078",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>DASHBOARD</b></span>\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>REFUGEES INFORMATION</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Attendance\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2022-06-27 17:37:56.379525",
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "table_2",
+ "icon": "kanban",
  "idx": 0,
- "label": "KCCA CITY HALL",
+ "label": "Partners Reports",
  "links": [
   {
    "dependencies": "",
@@ -321,126 +321,52 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "SCHOOL MANAGEMENT",
+   "label": "Attendance",
    "link_count": 2,
+   "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Create School",
-   "link_count": 0,
-   "link_to": "School",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Create Head Teacher",
-   "link_count": 0,
-   "link_to": "School Teacher",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "DIVISION MGT",
-   "link_count": 3,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Create A Division",
-   "link_count": 0,
-   "link_to": "Division",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Create An Inspector",
-   "link_count": 0,
-   "link_to": "User",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Create A Partner",
-   "link_count": 0,
-   "link_to": "User",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "REPORTS",
-   "link_count": 3,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Schools",
+   "label": "Attendance",
    "link_count": 0,
    "link_to": "SCHOOL ATTENDANCE",
    "link_type": "DocType",
    "onboard": 0,
+   "only_for": "",
    "type": "Link"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Enrollments",
+   "label": "Enrolments",
    "link_count": 0,
-   "link_to": "SCHOOL ATTENDANCE",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Attendances",
-   "link_count": 0,
-   "link_to": "SCHOOL ATTENDANCE",
+   "link_to": "SCHOOL ENROLMENT",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2022-06-27 17:29:35.632153",
+ "modified": "2022-06-27 19:32:48.769165",
  "modified_by": "Administrator",
  "module": "School",
- "name": "KCCA CITY HALL",
+ "name": "Partners Reports",
  "owner": "Administrator",
- "parent_page": "",
+ "parent_page": "PARTNERS",
  "public": 1,
  "quick_lists": [],
  "restrict_to_domain": "",
  "roles": [
   {
-   "role": "Administrator"
+   "role": "NRC"
   },
   {
-   "role": "KCCA Super Admin"
+   "role": "UNHCR"
   }
  ],
- "sequence_id": 2.0,
+ "sequence_id": 6.1,
  "shortcuts": [],
- "title": "KCCA CITY HALL"
+ "title": "Refugee Info"
 }
