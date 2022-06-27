@@ -51,10 +51,10 @@
   },
   {
    "fieldname": "sex",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Gender",
-   "options": "Male\nFemale",
+   "options": "Gender",
    "reqd": 1
   },
   {
@@ -151,7 +151,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-05-22 21:33:21.612982",
+ "modified": "2022-06-27 16:44:32.324661",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Enrollment",
