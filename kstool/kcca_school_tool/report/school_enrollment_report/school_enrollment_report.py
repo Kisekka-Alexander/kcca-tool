@@ -5,17 +5,45 @@ from optparse import Option
 import frappe
 from frappe import _
 from frappe.utils import cint, flt
+from pymysql import NULL
 
 
 def execute(filters=None):
-	sex = filters.get("sex")
-	nationality= filters.get("nationality")
+	is_ugandan=0
+	status = filters.get("status")
+	is_refugee = filters.get("is_refugee")
+	is_special_needs = filters.get("is_special_needs")
+	is_non_ugandan = filters.get("is_non_ugandan")
+	if is_non_ugandan == 'Yes':
+		is_ugandan = 1
+	elif is_non_ugandan == 'No':
+		is_ugandan=0
+	elif is_non_ugandan == 'All':
+		is_ugandan = ''
+
+
+	# nationality= filters.get("nationality")
+	if (filters.get("nationality")):
+		nationality=filters.get("nationality")
+	else: nationality=''
+
+	if (filters.get("school")):
+		school=filters.get("school")
+	else: school=''
+
+	if (filters.get("division")):
+		division=filters.get("division")
+	else: division=''
+    
+	if (filters.get("sex")):
+		sex=filters.get("sex")
+	else: sex=''
+	
 	columns = [
 		{
             'fieldname': 'name1',
             'label': _('Name'),
             'fieldtype': 'Data'
-            
         },
 		{
             'fieldname': 'school_class',
@@ -37,6 +65,11 @@ def execute(filters=None):
             'label': _('DOB'),
             'fieldtype': 'Data' 
         },
+			{
+            'fieldname': 'Age',
+            'label': _('Age'),
+            'fieldtype': 'Data'
+        },
 		{
             'fieldname': 'school',
             'label': _('School'),
@@ -48,6 +81,12 @@ def execute(filters=None):
             'fieldtype': 'Link',
 			'options': 'School'
 
+        },
+		
+		{
+            'fieldname': 'status',
+            'label': _('Status'),
+            'fieldtype': 'Data'
         }
 	
 	]
@@ -55,7 +94,14 @@ def execute(filters=None):
 	data=[]
 	enrollment_list = get_enrollment_list()
 	for student in enrollment_list:
-		if(student[1]==sex or sex=='All'):
+		if((student[2]==sex or sex=='') 
+					and (student[3]==nationality or nationality=='')
+					and (student[6]==school or school=='')
+					and (student[7]==division or division=='')  
+					and (student[8]==status or status=='All') 
+					and (student[9]==is_ugandan or is_ugandan=='')
+					and (student[10]==is_refugee or is_refugee=='All')
+					and (student[11]==is_special_needs or is_special_needs=='All')):
 			data.append(student)
 		else: continue
 		
@@ -69,8 +115,14 @@ def get_enrollment_list():
 		sex,
 		nationality,
 		date_of_birth,
+		TIMESTAMPDIFF(year, date_of_birth, CURDATE()) AS Age,
 		A.school,
-		division
+		division,
+		status,
+		is_non_ugandan,
+		is_refugee,
+		is_special_needs,
+		ifnull(A.residence,'') as residence
 	from `tabEnrollment` A left join `tabSchool` B on A.school = B.name """
 	)
 
