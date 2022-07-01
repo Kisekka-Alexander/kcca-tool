@@ -1,0 +1,53 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SCHOOL MANAGEMENT</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Approve Enrollments\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Enroll A Student\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bulk Enrollment\",\"col\":3}}]",
+ "creation": "2022-06-27 18:40:05.170169",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "list",
+ "idx": 0,
+ "label": "Enrollments",
+ "links": [],
+ "modified": "2022-06-30 15:01:40.472144",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "Enrollments",
+ "owner": "Administrator",
+ "parent_page": "SCHOOL MGT",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "School Headteacher"
+  }
+ ],
+ "sequence_id": 11.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Enroll A Student",
+   "link_to": "Enrollment",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Available",
+   "label": "Approve Enrollments",
+   "link_to": "Enrollment",
+   "stats_filter": "{\"workflow_state\":[\"=\",\"Pending\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Bulk Enrollment",
+   "link_to": "Data Import",
+   "type": "DocType"
+  }
+ ],
+ "title": "Enrollments"
+}

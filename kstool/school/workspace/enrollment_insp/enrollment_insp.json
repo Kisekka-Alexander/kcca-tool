@@ -1,0 +1,53 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\">SCHOOL MGT</span>\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Enrolments &amp; Attendances</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Enrollments\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View/Approve Attendances\",\"col\":3}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>School Inspection</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Inspect A School\",\"col\":3}}]",
+ "creation": "2022-06-27 19:03:07.818804",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "milestone",
+ "idx": 0,
+ "label": "Enrollment-Insp",
+ "links": [],
+ "modified": "2022-06-30 14:47:29.192348",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "Enrollment-Insp",
+ "owner": "Administrator",
+ "parent_page": "INSPECTOR",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Enforcement-Inpector"
+  }
+ ],
+ "sequence_id": 8.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Enrollments",
+   "link_to": "Enrollment",
+   "stats_filter": "{\"workflow_state\":[\"=\",\"Approved By Headteacher\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Inspections",
+   "label": "Inspect A School",
+   "link_to": "Primary Inspection",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View/Approve Attendances",
+   "link_to": "SCHOOL ATTENDANCE",
+   "type": "DocType"
+  }
+ ],
+ "title": "Enrollment-Insp"
+}
