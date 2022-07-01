@@ -248,7 +248,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-05-23 13:46:45.770704",
+ "modified": "2022-06-29 12:22:05.656644",
  "modified_by": "Administrator",
  "module": "School",
  "name": "School",
@@ -292,6 +292,33 @@
    "read": 1,
    "report": 1,
    "role": "School Headteacher",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "School Secretary",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "NRC",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "UNHCR",
    "share": 1
   }
  ],

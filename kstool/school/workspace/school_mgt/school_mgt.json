@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SCHOOL MANAGEMENT</span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Class Management\",\"col\":4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SCHOOL MANAGEMENT</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Enroll A Student\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bulk Enrollment\",\"col\":3}}]",
  "creation": "2022-06-21 23:02:59.945122",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -9,42 +9,13 @@
  "icon": "",
  "idx": 0,
  "label": "SCHOOL MGT",
- "links": [
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Class Management",
-   "link_count": 2,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Enrollments",
-   "link_count": 0,
-   "link_to": "SCHOOL ENROLMENT",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Attendance",
-   "link_count": 0,
-   "link_to": "SCHOOL ATTENDANCE",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  }
- ],
- "modified": "2022-06-27 17:29:36.162954",
+ "links": [],
+ "modified": "2022-06-30 14:59:16.228932",
  "modified_by": "Administrator",
  "module": "School",
  "name": "SCHOOL MGT",
  "owner": "Administrator",
- "parent_page": "",
+ "parent_page": "SCHOOL DATA",
  "public": 1,
  "quick_lists": [],
  "roles": [
@@ -52,7 +23,23 @@
    "role": "School Headteacher"
   }
  ],
- "sequence_id": 8.0,
- "shortcuts": [],
+ "sequence_id": 10.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Enrolled",
+   "label": "Enroll A Student",
+   "link_to": "Enrollment",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Bulk Enrollment",
+   "link_to": "Data Import",
+   "type": "DocType"
+  }
+ ],
  "title": "SCHOOL MGT"
 }

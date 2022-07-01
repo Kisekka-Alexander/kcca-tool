@@ -3,9 +3,13 @@
   {
    "chart_name": "Attendances",
    "label": "Attendance Demographic"
+  },
+  {
+   "chart_name": "Number of Refugees",
+   "label": "Enrolled Refugees"
   }
  ],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>DASHBOARD</b></span>\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>REFUGEES INFORMATION</b></span>\",\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendances\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Enrollments\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Attendance Demographic\",\"col\":6}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>PARTNER'S DESK</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendances\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Enrollments\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Attendance Demographic\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Enrolled Refugees\",\"col\":6}}]",
  "creation": "2022-05-11 16:57:59.597319",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -324,12 +328,12 @@
    "type": "Link"
   }
  ],
- "modified": "2022-06-27 19:35:57.597724",
+ "modified": "2022-06-30 14:39:16.893340",
  "modified_by": "Administrator",
  "module": "School",
  "name": "PARTNERS",
  "owner": "Administrator",
- "parent_page": "",
+ "parent_page": "SCHOOL DATA",
  "public": 1,
  "quick_lists": [],
  "restrict_to_domain": "",
@@ -341,21 +345,22 @@
    "role": "UNHCR"
   }
  ],
- "sequence_id": 6.0,
+ "sequence_id": 5.0,
  "shortcuts": [
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Attendances",
-   "link_to": "SCHOOL ATTENDANCE",
-   "stats_filter": "{\"workflow_state\":[\"=\",\"Approved\"]}",
+   "format": "{} Refugees",
+   "label": "Enrollments",
+   "link_to": "Enrollment",
+   "stats_filter": "{\"workflow_state\":[\"=\",\"Approved\"],\"is_refugee\":[\"=\",\"Yes\"]}",
    "type": "DocType"
   },
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Enrollments",
-   "link_to": "SCHOOL ENROLMENT",
+   "label": "Attendances",
+   "link_to": "SCHOOL ATTENDANCE",
    "stats_filter": "{\"workflow_state\":[\"=\",\"Approved\"]}",
    "type": "DocType"
   }

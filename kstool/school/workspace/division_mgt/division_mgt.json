@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"DIVISION MGT\",\"col\":4}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Divisions Information</b></span>\",\"col\":12}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"DIVISION MGT\",\"col\":4}}]",
  "creation": "2022-06-26 17:30:47.533081",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -358,7 +358,7 @@
    "type": "Link"
   }
  ],
- "modified": "2022-06-27 17:29:35.725925",
+ "modified": "2022-06-30 14:35:15.172619",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Division Mgt",

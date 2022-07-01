@@ -63,6 +63,7 @@
   {
    "fieldname": "stream",
    "fieldtype": "Select",
+   "hidden": 1,
    "label": "Stream"
   },
   {
@@ -228,7 +229,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2022-05-18 18:36:25.720762",
+ "modified": "2022-06-30 06:20:41.141168",
  "modified_by": "Administrator",
  "module": "School",
  "name": "School Teacher",

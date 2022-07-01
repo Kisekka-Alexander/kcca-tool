@@ -13,20 +13,18 @@
   "school",
   "name1",
   "sex",
-  "date_of_birth",
+  "age",
   "is_non_ugandan",
   "nationality",
   "is_refugee",
   "school_class",
   "column_break_7",
-  "stream",
   "previous_school",
   "name_of_guardian",
   "residence",
   "is_special_needs",
   "special_needs_details",
-  "status",
-  "amended_from"
+  "status"
  ],
  "fields": [
   {
@@ -54,7 +52,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Gender",
-   "options": "Gender",
+   "options": "\nMale\nFemale",
    "reqd": 1
   },
   {
@@ -65,11 +63,6 @@
    "label": "Nationality",
    "mandatory_depends_on": "eval:(doc.is_refugee== \"Yes\")",
    "options": "Country"
-  },
-  {
-   "fieldname": "stream",
-   "fieldtype": "Select",
-   "label": "Stream"
   },
   {
    "fieldname": "previous_school",
@@ -89,10 +82,9 @@
   {
    "depends_on": "eval:(doc.is_special_needs== \"Yes\")",
    "fieldname": "special_needs_details",
-   "fieldtype": "Table MultiSelect",
+   "fieldtype": "Small Text",
    "label": "Special Needs Details",
-   "mandatory_depends_on": "eval:(doc.is_special_needs== \"Yes\")",
-   "options": "Student Special Needs"
+   "mandatory_depends_on": "eval:(doc.is_special_needs== \"Yes\")"
   },
   {
    "fieldname": "column_break_7",
@@ -102,7 +94,7 @@
    "default": "No",
    "fieldname": "is_special_needs",
    "fieldtype": "Select",
-   "label": "Special Needs",
+   "label": "Special Needs?",
    "options": "Yes\nNo"
   },
   {
@@ -114,22 +106,16 @@
    "options": "Yes\nNo"
   },
   {
-   "fieldname": "date_of_birth",
-   "fieldtype": "Date",
-   "label": "Date of Birth",
-   "reqd": 1
-  },
-  {
    "default": "0",
    "fieldname": "is_non_ugandan",
    "fieldtype": "Check",
-   "label": "Non Ugandan?",
-   "reqd": 1
+   "label": "Non Ugandan?"
   },
   {
    "fieldname": "school_class",
    "fieldtype": "Select",
    "label": "Class",
+   "options": "\nP1\nP2\nP3\nP4\nP5\nP6\nP7",
    "reqd": 1
   },
   {
@@ -140,19 +126,14 @@
    "reqd": 1
   },
   {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Enrollment",
-   "print_hide": 1,
-   "read_only": 1
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
-
- "modified": "2022-06-27 16:44:32.324661",
+ "modified": "2022-06-30 12:21:08.349041",
 
  "modified_by": "Administrator",
  "module": "School",
@@ -213,6 +194,28 @@
    "read": 1,
    "report": 1,
    "role": "UNHCR",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "School Secretary",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Enforcement-Inpector",
    "share": 1,
    "write": 1
   }
