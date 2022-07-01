@@ -2,9 +2,27 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('Attendance', {
-	// refresh: function(frm) {
+	onload: function(frm) {
+		frm.set_query('school', function() {
+			return {
+				filters: {
+					'school_class': (frm.doc.school_class)
+				}
+			};
+		});
+		if (!frm.__islocal) {
+			frm.set_query('student', 'students', function() {
+				return{
+					query: 'kstool.school.doctype.attendance.attendance.fetch_students',
+					filters: {
+						'school_class': (frm.doc.school_class)
+					}
+				}
+			});
+		}
+	}, 
 
-	// }
+
     school: function (frm){
         let classes = null;
         frappe.db.get_doc('School', frm.doc.school).then((data) => {
@@ -23,6 +41,7 @@ frappe.ui.form.on('Attendance', {
             console.log(err);
         });
     },
+
     school_class: function (frm){
         let streams = [];
         console.log(frm.doc.school_class);
@@ -36,4 +55,16 @@ frappe.ui.form.on('Attendance', {
             frm.set_df_property('stream', 'options', streams);
         })
     },
+
+
+
+    get_students: function(frm) {
+		frappe.db.get_list('Enrollment')
+	},
+
+
+
+
+
 });
+

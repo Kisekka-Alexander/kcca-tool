@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SCHOOL MANAGEMENT</span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Class Management\",\"col\":4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SCHOOL MANAGEMENT</span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Class Management\",\"col\":10}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
  "creation": "2022-06-27 18:40:23.755162",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -14,22 +14,32 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Class Management",
-   "link_count": 1,
+   "link_count": 2,
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Create Attendance",
+   "label": "General Attendance",
    "link_count": 0,
    "link_to": "SCHOOL ATTENDANCE",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student Attendance",
+   "link_count": 0,
+   "link_to": "Attendance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2022-06-27 18:59:11.761259",
+ "modified": "2022-06-30 13:16:39.046261",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Attendances",
@@ -42,7 +52,7 @@
    "role": "School Headteacher"
   }
  ],
- "sequence_id": 8.2,
+ "sequence_id": 12.0,
  "shortcuts": [],
  "title": "Attendances"
 }

@@ -1,6 +1,27 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SCHOOL DATA</span>\",\"col\":12}}]",
+ "charts": [
+  {
+   "chart_name": "Number of Refugees",
+   "label": "Erolled Refugees"
+  },
+  {
+   "chart_name": "Students Enrollment",
+   "label": "Students Enrollment"
+  },
+  {
+   "chart_name": "Refugees By Nationality",
+   "label": "Refugees By Nationality"
+  },
+  {
+   "chart_name": "Enrollments Per School",
+   "label": "Enrollments Per School"
+  },
+  {
+   "chart_name": "Enrollment By Gender",
+   "label": "Enrollment By Gender"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SCHOOL DATA</span>\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Students Enrollment\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Enrollments Per School\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Enrollment By Gender\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Refugees By Nationality\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Erolled Refugees\",\"col\":6}}]",
  "creation": "2022-06-27 17:29:31.534463",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -9,7 +30,7 @@
  "idx": 0,
  "label": "SCHOOL DATA",
  "links": [],
- "modified": "2022-06-27 19:46:33.621374",
+ "modified": "2022-06-30 16:12:58.286444",
  "modified_by": "Administrator",
  "module": "School",
  "name": "SCHOOL DATA",
@@ -20,9 +41,6 @@
  "restrict_to_domain": "",
  "roles": [
   {
-   "role": "School Headteacher"
-  },
-  {
    "role": "NRC"
   },
   {
@@ -30,6 +48,9 @@
   },
   {
    "role": "KCCA Super Admin"
+  },
+  {
+   "role": "School Headteacher"
   }
  ],
  "sequence_id": 1.0,

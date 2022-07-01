@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>REFUGEES INFORMATION</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Refugee Attendance Report\",\"col\":3}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>PARTNER'S DESK</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Enrolments\",\"col\":3}}]",
  "creation": "2022-06-27 17:37:56.379525",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -319,7 +319,7 @@
    "type": "Link"
   }
  ],
- "modified": "2022-06-27 19:37:22.511144",
+ "modified": "2022-06-30 13:26:23.947747",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Refugee Info",
@@ -336,14 +336,16 @@
    "role": "UNHCR"
   }
  ],
- "sequence_id": 6.1,
+ "sequence_id": 6.0,
  "shortcuts": [
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Refugee Attendance Report",
-   "link_to": "REFUGEE ATTENDANCE REPORT 1",
-   "type": "Report"
+   "format": "{} ",
+   "label": "View Enrolments",
+   "link_to": "Enrollment",
+   "stats_filter": "{\"workflow_state\":[\"=\",\"Approved\"],\"is_refugee\":[\"=\",\"Yes\"]}",
+   "type": "DocType"
   }
  ],
  "title": "Refugee Info"

@@ -11,8 +11,6 @@
   "date",
   "school_class",
   "column_break_4",
-  "stream",
-  "teacher",
   "term",
   "section_break_8",
   "attendance_list",
@@ -24,8 +22,7 @@
   "column_break_12",
   "absent",
   "female_absent",
-  "male_absent",
-  "amended_from"
+  "male_absent"
  ],
  "fields": [
   {
@@ -41,19 +38,6 @@
    "fieldtype": "Date",
    "in_list_view": 1,
    "label": "Date",
-   "reqd": 1
-  },
-  {
-   "fieldname": "stream",
-   "fieldtype": "Select",
-   "label": "Stream",
-   "options": "A\nB\nC\nD"
-  },
-  {
-   "fieldname": "teacher",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Teacher",
    "reqd": 1
   },
   {
@@ -134,21 +118,11 @@
    "fieldtype": "Int",
    "label": "Male Absent",
    "read_only": 1
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Attendance",
-   "print_hide": 1,
-   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
- "is_submittable": 1,
  "links": [],
- "modified": "2022-05-22 16:42:27.756932",
+ "modified": "2022-06-29 11:54:02.425280",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Attendance",
@@ -166,7 +140,6 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
-   "submit": 1,
    "write": 1
   },
   {
@@ -179,7 +152,6 @@
    "report": 1,
    "role": "School Class Teacher",
    "share": 1,
-   "submit": 1,
    "write": 1
   },
   {
@@ -192,7 +164,6 @@
    "report": 1,
    "role": "School Headteacher",
    "share": 1,
-   "submit": 1,
    "write": 1
   },
   {
@@ -212,6 +183,18 @@
    "report": 1,
    "role": "NRC",
    "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "School Secretary",
+   "share": 1,
+   "write": 1
   }
  ],
  "sort_field": "modified",
