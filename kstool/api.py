@@ -52,3 +52,14 @@ def generate_keys(user):
     user_details.save()
 
     return api_secret
+
+@frappe.whitelist()
+def get_school_students(school):
+    students = frappe.db.sql(f""" SELECT name FROM `tabEnrollment` WHERE school= '{school}'  """, as_dict=True)
+    return students
+
+
+@frappe.whitelist()
+def get_std_by_class(sch_class, school):
+    schclass = frappe.db.sql(f"""  SELECT name FROM `tabEnrollment` WHERE school= '{school}' AND school_class= '{sch_class}'  """, as_dict=True)
+    return schclass

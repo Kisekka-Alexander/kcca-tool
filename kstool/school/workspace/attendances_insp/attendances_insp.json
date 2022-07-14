@@ -10,7 +10,7 @@
  "idx": 0,
  "label": "Attendances-Insp",
  "links": [],
- "modified": "2022-06-29 13:02:23.196086",
+ "modified": "2022-07-05 16:18:19.870863",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Attendances-Insp",
@@ -23,7 +23,7 @@
    "role": "Enforcement-Inpector"
   }
  ],
- "sequence_id": 9.0,
+ "sequence_id": 5.0,
  "shortcuts": [
   {
    "color": "Grey",

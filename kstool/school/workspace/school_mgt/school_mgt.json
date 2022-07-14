@@ -10,7 +10,7 @@
  "idx": 0,
  "label": "SCHOOL MGT",
  "links": [],
- "modified": "2022-06-30 14:59:16.228932",
+ "modified": "2022-07-05 16:18:19.914924",
  "modified_by": "Administrator",
  "module": "School",
  "name": "SCHOOL MGT",
@@ -23,7 +23,7 @@
    "role": "School Headteacher"
   }
  ],
- "sequence_id": 10.0,
+ "sequence_id": 6.0,
  "shortcuts": [
   {
    "color": "Grey",
