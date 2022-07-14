@@ -1,15 +1,15 @@
 {
  "charts": [
   {
-   "chart_name": "Attendances",
-   "label": "Attendance Demographic"
+   "chart_name": "Refugees By Nationality",
+   "label": "Refugees By Nationality"
   },
   {
    "chart_name": "Number of Refugees",
    "label": "Enrolled Refugees"
   }
  ],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>PARTNER'S DESK</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendances\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Enrollments\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Attendance Demographic\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Enrolled Refugees\",\"col\":6}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>PARTNER'S DESK</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendances\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Enrollments\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Enrolled Refugees\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Refugees By Nationality\",\"col\":12}}]",
  "creation": "2022-05-11 16:57:59.597319",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -328,7 +328,7 @@
    "type": "Link"
   }
  ],
- "modified": "2022-06-30 14:39:16.893340",
+ "modified": "2022-07-05 16:18:19.690153",
  "modified_by": "Administrator",
  "module": "School",
  "name": "PARTNERS",
@@ -345,7 +345,7 @@
    "role": "UNHCR"
   }
  ],
- "sequence_id": 5.0,
+ "sequence_id": 2.0,
  "shortcuts": [
   {
    "color": "Grey",

@@ -390,7 +390,7 @@
    "type": "Link"
   }
  ],
- "modified": "2022-06-30 15:07:10.864628",
+ "modified": "2022-07-05 16:18:20.091560",
  "modified_by": "Administrator",
  "module": "School",
  "name": "KCCA CITY HALL",
@@ -407,7 +407,7 @@
    "role": "KCCA Super Admin"
   }
  ],
- "sequence_id": 2.0,
+ "sequence_id": 10.0,
  "shortcuts": [],
  "title": "KCCA CITY HALL"
 }

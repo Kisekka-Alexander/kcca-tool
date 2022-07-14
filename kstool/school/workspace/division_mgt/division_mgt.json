@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"DIVISION MGT\",\"col\":4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create A Division\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create An Inspector\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create A Partner\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
  "creation": "2022-06-26 17:30:47.533081",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -317,48 +317,9 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "DIVISION MGT",
-   "link_count": 3,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Create A Division",
-   "link_count": 0,
-   "link_to": "Division",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Create An Inspector",
-   "link_count": 0,
-   "link_to": "User",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Create A Partner",
-   "link_count": 0,
-   "link_to": "User",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
   }
  ],
- "modified": "2022-06-30 14:35:15.172619",
+ "modified": "2022-07-05 16:18:20.184448",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Division Mgt",
@@ -375,7 +336,32 @@
    "role": "KCCA Super Admin"
   }
  ],
- "sequence_id": 3.0,
- "shortcuts": [],
+ "sequence_id": 11.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "Create A Division",
+   "link_to": "Division",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "Create A Partner",
+   "link_to": "User",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "Create An Inspector",
+   "link_to": "User",
+   "type": "DocType"
+  }
+ ],
  "title": "Division Mgt"
 }
