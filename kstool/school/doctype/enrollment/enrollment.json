@@ -50,7 +50,7 @@
   },
   {
    "fieldname": "sex",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Gender",
    "options": "\nMale\nFemale",
