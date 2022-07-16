@@ -4,6 +4,7 @@
 frappe.ui.form.on('Attendance', {
 	// refresh: function(frm) {
 
+// test
 	// }
     school: function (frm){
         let classes = null;
