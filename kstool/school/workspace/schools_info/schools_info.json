@@ -1,11 +1,6 @@
 {
- "charts": [
-  {
-   "chart_name": "Schools Per Division",
-   "label": "Schools Per Division"
-  }
- ],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>School Info</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create A School\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Attendances\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Enrollments\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Schools Per Division\",\"col\":6}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>School Info</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create A School\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Attendances\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Enrollments\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
  "creation": "2022-06-26 19:51:27.316480",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -324,7 +319,7 @@
    "type": "Link"
   }
  ],
- "modified": "2022-07-05 16:18:20.272374",
+ "modified": "2022-07-16 12:13:30.413649",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Schools Info",
@@ -349,7 +344,6 @@
    "format": "{} Approved",
    "label": "View Attendances",
    "link_to": "SCHOOL ATTENDANCE",
-   "stats_filter": "{\"docstatus\":[\"=\",\"1\"]}",
    "type": "DocType"
   },
   {
@@ -358,7 +352,6 @@
    "format": "{} Available",
    "label": "View Enrollments",
    "link_to": "SCHOOL ENROLMENT",
-   "stats_filter": "{\"docstatus\":[\"=\",\"1\"]}",
    "type": "DocType"
   },
   {

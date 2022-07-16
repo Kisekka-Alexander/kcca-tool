@@ -1,27 +1,6 @@
 {
- "charts": [
-  {
-   "chart_name": "Number of Refugees",
-   "label": "Erolled Refugees"
-  },
-  {
-   "chart_name": "Students Enrollment",
-   "label": "Students Enrollment"
-  },
-  {
-   "chart_name": "Refugees By Nationality",
-   "label": "Refugees By Nationality"
-  },
-  {
-   "chart_name": "Enrollments Per School",
-   "label": "Enrollments Per School"
-  },
-  {
-   "chart_name": "Enrollment By Gender",
-   "label": "Enrollment By Gender"
-  }
- ],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SCHOOL DATA</span>\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Students Enrollment\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Enrollments Per School\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Enrollment By Gender\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Refugees By Nationality\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Erolled Refugees\",\"col\":6}}]",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SCHOOL DATA</span>\",\"col\":12}}]",
  "creation": "2022-06-27 17:29:31.534463",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -30,7 +9,7 @@
  "idx": 0,
  "label": "SCHOOL DATA",
  "links": [],
- "modified": "2022-07-05 16:18:19.607688",
+ "modified": "2022-07-16 12:17:32.323637",
  "modified_by": "Administrator",
  "module": "School",
  "name": "SCHOOL DATA",

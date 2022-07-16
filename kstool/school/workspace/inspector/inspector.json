@@ -10,7 +10,7 @@
  "idx": 0,
  "label": "INSPECTOR",
  "links": [],
- "modified": "2022-07-05 16:18:19.778556",
+ "modified": "2022-07-16 12:18:10.146141",
  "modified_by": "Administrator",
  "module": "School",
  "name": "INSPECTOR",
@@ -29,18 +29,16 @@
    "color": "Grey",
    "doc_view": "List",
    "format": "{} Available",
-   "label": "View Enrollments",
-   "link_to": "Enrollment",
-   "stats_filter": "{\"workflow_state\":[\"=\",\"Approved By Headteacher\"]}",
+   "label": "View/Approve Attendances",
+   "link_to": "SCHOOL ATTENDANCE",
    "type": "DocType"
   },
   {
    "color": "Grey",
    "doc_view": "List",
    "format": "{} Available",
-   "label": "View/Approve Attendances",
-   "link_to": "SCHOOL ATTENDANCE",
-   "stats_filter": "{\"workflow_state\":[\"=\",\"Pending\"]}",
+   "label": "View Enrollments",
+   "link_to": "Enrollment",
    "type": "DocType"
   }
  ],
