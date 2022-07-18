@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"SCHOOL MANAGEMENT\",\"col\":4}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>School Information</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Attendances\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Enrollments\",\"col\":4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>School Info</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create A School\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Attendances\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Enrollments\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
  "creation": "2022-06-26 19:51:27.316480",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -317,27 +317,9 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "SCHOOL MANAGEMENT",
-   "link_count": 1,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Create A School",
-   "link_count": 0,
-   "link_to": "School",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
   }
  ],
- "modified": "2022-06-27 17:29:35.819902",
+ "modified": "2022-07-16 12:13:30.413649",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Schools Info",
@@ -354,7 +336,7 @@
    "role": "KCCA Super Admin"
   }
  ],
- "sequence_id": 4.0,
+ "sequence_id": 12.0,
  "shortcuts": [
   {
    "color": "Green",
@@ -362,7 +344,6 @@
    "format": "{} Approved",
    "label": "View Attendances",
    "link_to": "SCHOOL ATTENDANCE",
-   "stats_filter": "{\"docstatus\":[\"=\",\"1\"]}",
    "type": "DocType"
   },
   {
@@ -371,7 +352,14 @@
    "format": "{} Available",
    "label": "View Enrollments",
    "link_to": "SCHOOL ENROLMENT",
-   "stats_filter": "{\"docstatus\":[\"=\",\"1\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "Create A School",
+   "link_to": "School",
    "type": "DocType"
   }
  ],

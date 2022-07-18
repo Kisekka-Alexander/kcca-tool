@@ -9,7 +9,7 @@
  "idx": 0,
  "label": "SCHOOL DATA",
  "links": [],
- "modified": "2022-06-27 19:46:33.621374",
+ "modified": "2022-07-16 12:17:32.323637",
  "modified_by": "Administrator",
  "module": "School",
  "name": "SCHOOL DATA",
@@ -20,9 +20,6 @@
  "restrict_to_domain": "",
  "roles": [
   {
-   "role": "School Headteacher"
-  },
-  {
    "role": "NRC"
   },
   {
@@ -30,6 +27,9 @@
   },
   {
    "role": "KCCA Super Admin"
+  },
+  {
+   "role": "School Headteacher"
   }
  ],
  "sequence_id": 1.0,

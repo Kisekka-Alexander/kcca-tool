@@ -1,7 +1,8 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
- "autoname": "format:ATT-{school}-{MM}-{DD}-{YY}-{###}",
+ "autoname": "format:{sch_class}-ATT-{school}-{DD}-{MM}-{YY}",
  "creation": "2022-03-04 23:57:05.741209",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -9,10 +10,8 @@
  "field_order": [
   "school",
   "date",
-  "school_class",
+  "sch_class",
   "column_break_4",
-  "stream",
-  "teacher",
   "term",
   "section_break_8",
   "attendance_list",
@@ -24,8 +23,7 @@
   "column_break_12",
   "absent",
   "female_absent",
-  "male_absent",
-  "amended_from"
+  "male_absent"
  ],
  "fields": [
   {
@@ -41,19 +39,6 @@
    "fieldtype": "Date",
    "in_list_view": 1,
    "label": "Date",
-   "reqd": 1
-  },
-  {
-   "fieldname": "stream",
-   "fieldtype": "Select",
-   "label": "Stream",
-   "options": "A\nB\nC\nD"
-  },
-  {
-   "fieldname": "teacher",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Teacher",
    "reqd": 1
   },
   {
@@ -79,13 +64,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "school_class",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Class",
-   "reqd": 1
-  },
-  {
    "fieldname": "present",
    "fieldtype": "Int",
    "label": "Present",
@@ -100,7 +78,7 @@
   {
    "fieldname": "total_count",
    "fieldtype": "Int",
-   "label": "Total",
+   "label": "Total Enroled",
    "read_only": 1
   },
   {
@@ -136,19 +114,18 @@
    "read_only": 1
   },
   {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Attendance",
-   "print_hide": 1,
-   "read_only": 1
+   "fieldname": "sch_class",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Class",
+   "options": "\nP1\nP2\nP3\nP4\nP5\nP6\nP7",
+   "reqd": 1
   }
  ],
+ "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
- "is_submittable": 1,
  "links": [],
- "modified": "2022-05-22 16:42:27.756932",
+ "modified": "2022-07-13 19:15:09.734715",
  "modified_by": "Administrator",
  "module": "School",
  "name": "Attendance",
@@ -166,7 +143,6 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
-   "submit": 1,
    "write": 1
   },
   {
@@ -179,7 +155,6 @@
    "report": 1,
    "role": "School Class Teacher",
    "share": 1,
-   "submit": 1,
    "write": 1
   },
   {
@@ -192,7 +167,6 @@
    "report": 1,
    "role": "School Headteacher",
    "share": 1,
-   "submit": 1,
    "write": 1
   },
   {
@@ -212,8 +186,21 @@
    "report": 1,
    "role": "NRC",
    "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "School Secretary",
+   "share": 1,
+   "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

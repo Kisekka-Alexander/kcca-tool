@@ -10,12 +10,12 @@
  "idx": 0,
  "label": "INSPECTOR",
  "links": [],
- "modified": "2022-06-27 18:29:54.633764",
+ "modified": "2022-07-16 12:18:10.146141",
  "modified_by": "Administrator",
  "module": "School",
  "name": "INSPECTOR",
  "owner": "Administrator",
- "parent_page": "",
+ "parent_page": "SCHOOL DATA",
  "public": 1,
  "quick_lists": [],
  "roles": [
@@ -23,7 +23,7 @@
    "role": "Enforcement-Inpector"
   }
  ],
- "sequence_id": 7.0,
+ "sequence_id": 3.0,
  "shortcuts": [
   {
    "color": "Grey",
@@ -31,15 +31,14 @@
    "format": "{} Available",
    "label": "View/Approve Attendances",
    "link_to": "SCHOOL ATTENDANCE",
-   "stats_filter": "{\"workflow_state\":[\"=\",\"Pending\"]}",
    "type": "DocType"
   },
   {
    "color": "Grey",
    "doc_view": "List",
+   "format": "{} Available",
    "label": "View Enrollments",
-   "link_to": "SCHOOL ENROLMENT",
-   "stats_filter": "{\"workflow_state\":[\"=\",\"Pending\"]}",
+   "link_to": "Enrollment",
    "type": "DocType"
   }
  ],
