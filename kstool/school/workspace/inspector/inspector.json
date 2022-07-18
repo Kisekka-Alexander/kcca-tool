@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">INSPECTOR</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View/Approve Attendances\",\"col\":5}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">INSPECTOR</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View/Approve Attendances\",\"col\":5}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Enrollments\",\"col\":3}}]",
  "creation": "2022-06-21 23:55:06.224781",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -10,12 +10,12 @@
  "idx": 0,
  "label": "INSPECTOR",
  "links": [],
- "modified": "2022-06-22 17:17:48.244225",
+ "modified": "2022-07-16 12:18:10.146141",
  "modified_by": "Administrator",
  "module": "School",
  "name": "INSPECTOR",
  "owner": "Administrator",
- "parent_page": "",
+ "parent_page": "SCHOOL DATA",
  "public": 1,
  "quick_lists": [],
  "roles": [
@@ -23,14 +23,22 @@
    "role": "Enforcement-Inpector"
   }
  ],
- "sequence_id": 2.0,
+ "sequence_id": 3.0,
  "shortcuts": [
   {
    "color": "Grey",
    "doc_view": "List",
+   "format": "{} Available",
    "label": "View/Approve Attendances",
    "link_to": "SCHOOL ATTENDANCE",
-   "stats_filter": "{\"docstatus\":[\"=\",\"1\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Available",
+   "label": "View Enrollments",
+   "link_to": "Enrollment",
    "type": "DocType"
   }
  ],

@@ -1,0 +1,45 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2022-06-30 05:28:01.791886",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"workflow_state\",\"Enrollment\"],[\"name\",\"Enrollment\"],[\"docstatus\",\"Enrollment\"],[\"name1\",\"Enrollment\"],[\"school\",\"Enrollment\"],[\"sex\",\"Enrollment\"],[\"nationality\",\"Enrollment\"],[\"creation\",\"Enrollment\"],[\"status\",\"Enrollment\"]],\"order_by\":\"`tabEnrollment`.`modified` desc\",\"page_length\":20,\"column_widths\":{\"workflow_state\":120,\"name\":173,\"name1\":143,\"school\":132,\"sex\":120,\"nationality\":110,\"creation\":165,\"status\":120},\"group_by\":null}",
+ "modified": "2022-06-30 12:53:06.793851",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "Enrollments Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Enrollment",
+ "report_name": "Enrollments Report",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "School Class Teacher"
+  },
+  {
+   "role": "School Headteacher"
+  },
+  {
+   "role": "NRC"
+  },
+  {
+   "role": "UNHCR"
+  },
+  {
+   "role": "School Secretary"
+  },
+  {
+   "role": "Enforcement-Inpector"
+  }
+ ]
+}

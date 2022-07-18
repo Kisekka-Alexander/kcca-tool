@@ -1,23 +1,14 @@
 {
- "charts": [
-  {
-   "chart_name": "Refugees By Nationality",
-   "label": "Refugees By Nationality"
-  },
-  {
-   "chart_name": "Number of Refugees",
-   "label": "Enrolled Refugees"
-  }
- ],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>PARTNER'S DESK</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendances\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Enrollments\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Enrolled Refugees\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Refugees By Nationality\",\"col\":12}}]",
- "creation": "2022-05-11 16:57:59.597319",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>School Info</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create A School\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Attendances\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Enrollments\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2022-06-26 19:51:27.316480",
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "sell",
+ "icon": "organization",
  "idx": 0,
- "label": "PARTNERS",
+ "label": "Schools Info",
  "links": [
   {
    "dependencies": "",
@@ -328,42 +319,49 @@
    "type": "Link"
   }
  ],
- "modified": "2022-07-05 16:18:19.690153",
+ "modified": "2022-07-16 12:13:30.413649",
  "modified_by": "Administrator",
  "module": "School",
- "name": "PARTNERS",
+ "name": "Schools Info",
  "owner": "Administrator",
- "parent_page": "SCHOOL DATA",
+ "parent_page": "KCCA CITY HALL",
  "public": 1,
  "quick_lists": [],
  "restrict_to_domain": "",
  "roles": [
   {
-   "role": "NRC"
+   "role": "Administrator"
   },
   {
-   "role": "UNHCR"
+   "role": "KCCA Super Admin"
   }
  ],
- "sequence_id": 2.0,
+ "sequence_id": 12.0,
  "shortcuts": [
   {
-   "color": "Grey",
+   "color": "Green",
    "doc_view": "List",
-   "format": "{} Refugees",
-   "label": "Enrollments",
-   "link_to": "Enrollment",
-   "stats_filter": "{\"workflow_state\":[\"=\",\"Approved\"],\"is_refugee\":[\"=\",\"Yes\"]}",
+   "format": "{} Approved",
+   "label": "View Attendances",
+   "link_to": "SCHOOL ATTENDANCE",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{} Available",
+   "label": "View Enrollments",
+   "link_to": "SCHOOL ENROLMENT",
    "type": "DocType"
   },
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Attendances",
-   "link_to": "SCHOOL ATTENDANCE",
-   "stats_filter": "{\"workflow_state\":[\"=\",\"Approved\"]}",
+   "format": "{}",
+   "label": "Create A School",
+   "link_to": "School",
    "type": "DocType"
   }
  ],
- "title": "PARTNERS"
+ "title": "Schools Info"
 }

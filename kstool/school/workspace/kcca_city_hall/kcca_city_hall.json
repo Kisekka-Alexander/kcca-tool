@@ -1,6 +1,11 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"DIVISION MGT\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"SCHOOL MANAGEMENT\",\"col\":6}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"REPORTS\",\"col\":5}}]",
+ "charts": [
+  {
+   "chart_name": "Enrollments Per School",
+   "label": "Enrollments Per School"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"DIVISION MGT\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"SCHOOL MANAGEMENT\",\"col\":6}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Enrollments Per School\",\"col\":6}}]",
  "creation": "2022-06-22 10:52:08.715078",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -383,61 +388,26 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "REPORTS",
-   "link_count": 3,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Schools",
-   "link_count": 0,
-   "link_to": "SCHOOL ATTENDANCE",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Enrollments",
-   "link_count": 0,
-   "link_to": "SCHOOL ATTENDANCE",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Attendances",
-   "link_count": 0,
-   "link_to": "SCHOOL ATTENDANCE",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
   }
  ],
- "modified": "2022-06-22 17:17:48.123963",
+ "modified": "2022-07-05 16:18:20.091560",
  "modified_by": "Administrator",
  "module": "School",
  "name": "KCCA CITY HALL",
  "owner": "Administrator",
- "parent_page": "",
+ "parent_page": "SCHOOL DATA",
  "public": 1,
  "quick_lists": [],
  "restrict_to_domain": "",
  "roles": [
   {
    "role": "Administrator"
+  },
+  {
+   "role": "KCCA Super Admin"
   }
  ],
- "sequence_id": 1.0,
+ "sequence_id": 10.0,
  "shortcuts": [],
  "title": "KCCA CITY HALL"
 }

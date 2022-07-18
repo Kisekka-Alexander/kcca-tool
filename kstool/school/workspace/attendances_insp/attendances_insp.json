@@ -1,0 +1,39 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\">ATTENDANCE MGT</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View/Approve Attendances\",\"col\":5}}]",
+ "creation": "2022-06-27 19:03:28.833031",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "milestone",
+ "idx": 0,
+ "label": "Attendances-Insp",
+ "links": [],
+ "modified": "2022-07-05 16:18:19.870863",
+ "modified_by": "Administrator",
+ "module": "School",
+ "name": "Attendances-Insp",
+ "owner": "Administrator",
+ "parent_page": "INSPECTOR",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Enforcement-Inpector"
+  }
+ ],
+ "sequence_id": 5.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Available",
+   "label": "View/Approve Attendances",
+   "link_to": "SCHOOL ATTENDANCE",
+   "stats_filter": "{\"workflow_state\":[\"=\",\"Pending\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "Attendances-Insp"
+}

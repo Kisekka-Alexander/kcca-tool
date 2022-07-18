@@ -8,6 +8,7 @@
  "engine": "InnoDB",
  "field_order": [
   "school_identification_section",
+  "emis_no",
   "school_name",
   "category",
   "district",
@@ -243,12 +244,18 @@
    "fieldname": "highest_class",
    "fieldtype": "Select",
    "label": "Highest Class in School"
+  },
+  {
+   "fieldname": "emis_no",
+   "fieldtype": "Data",
+   "label": "EMIS No.",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-05-23 13:46:45.770704",
+ "modified": "2022-07-16 13:30:00.864660",
  "modified_by": "Administrator",
  "module": "School",
  "name": "School",
@@ -293,6 +300,45 @@
    "report": 1,
    "role": "School Headteacher",
    "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "School Secretary",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "NRC",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "UNHCR",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "KCCA Super Admin",
+   "share": 1,
+   "write": 1
   }
  ],
  "sort_field": "modified",

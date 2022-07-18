@@ -1,23 +1,14 @@
 {
- "charts": [
-  {
-   "chart_name": "Refugees By Nationality",
-   "label": "Refugees By Nationality"
-  },
-  {
-   "chart_name": "Number of Refugees",
-   "label": "Enrolled Refugees"
-  }
- ],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>PARTNER'S DESK</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendances\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Enrollments\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Enrolled Refugees\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Refugees By Nationality\",\"col\":12}}]",
- "creation": "2022-05-11 16:57:59.597319",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>KCCA CITY HALL</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create A Division\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create An Inspector\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create A Partner\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2022-06-26 17:30:47.533081",
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "sell",
+ "icon": "table_2",
  "idx": 0,
- "label": "PARTNERS",
+ "label": "Division Mgt",
  "links": [
   {
    "dependencies": "",
@@ -328,42 +319,49 @@
    "type": "Link"
   }
  ],
- "modified": "2022-07-05 16:18:19.690153",
+ "modified": "2022-07-05 16:18:20.184448",
  "modified_by": "Administrator",
  "module": "School",
- "name": "PARTNERS",
+ "name": "Division Mgt",
  "owner": "Administrator",
- "parent_page": "SCHOOL DATA",
+ "parent_page": "KCCA CITY HALL",
  "public": 1,
  "quick_lists": [],
  "restrict_to_domain": "",
  "roles": [
   {
-   "role": "NRC"
+   "role": "Administrator"
   },
   {
-   "role": "UNHCR"
+   "role": "KCCA Super Admin"
   }
  ],
- "sequence_id": 2.0,
+ "sequence_id": 11.0,
  "shortcuts": [
   {
    "color": "Grey",
    "doc_view": "List",
-   "format": "{} Refugees",
-   "label": "Enrollments",
-   "link_to": "Enrollment",
-   "stats_filter": "{\"workflow_state\":[\"=\",\"Approved\"],\"is_refugee\":[\"=\",\"Yes\"]}",
+   "format": "{}",
+   "label": "Create A Division",
+   "link_to": "Division",
    "type": "DocType"
   },
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Attendances",
-   "link_to": "SCHOOL ATTENDANCE",
-   "stats_filter": "{\"workflow_state\":[\"=\",\"Approved\"]}",
+   "format": "{}",
+   "label": "Create A Partner",
+   "link_to": "User",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "Create An Inspector",
+   "link_to": "User",
    "type": "DocType"
   }
  ],
- "title": "PARTNERS"
+ "title": "Division Mgt"
 }

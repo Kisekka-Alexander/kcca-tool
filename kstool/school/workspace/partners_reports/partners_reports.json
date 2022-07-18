@@ -1,23 +1,14 @@
 {
- "charts": [
-  {
-   "chart_name": "Refugees By Nationality",
-   "label": "Refugees By Nationality"
-  },
-  {
-   "chart_name": "Number of Refugees",
-   "label": "Enrolled Refugees"
-  }
- ],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>PARTNER'S DESK</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendances\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Enrollments\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Enrolled Refugees\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Refugees By Nationality\",\"col\":12}}]",
- "creation": "2022-05-11 16:57:59.597319",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>DASHBOARD</b></span>\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>REFUGEES INFORMATION</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Attendance\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2022-06-27 17:37:56.379525",
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "sell",
+ "icon": "kanban",
  "idx": 0,
- "label": "PARTNERS",
+ "label": "Partners Reports",
  "links": [
   {
    "dependencies": "",
@@ -326,14 +317,44 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Attendance",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Attendance",
+   "link_count": 0,
+   "link_to": "SCHOOL ATTENDANCE",
+   "link_type": "DocType",
+   "onboard": 0,
+   "only_for": "",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Enrolments",
+   "link_count": 0,
+   "link_to": "SCHOOL ENROLMENT",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2022-07-05 16:18:19.690153",
+ "modified": "2022-06-27 19:32:48.769165",
  "modified_by": "Administrator",
  "module": "School",
- "name": "PARTNERS",
+ "name": "Partners Reports",
  "owner": "Administrator",
- "parent_page": "SCHOOL DATA",
+ "parent_page": "PARTNERS",
  "public": 1,
  "quick_lists": [],
  "restrict_to_domain": "",
@@ -345,25 +366,7 @@
    "role": "UNHCR"
   }
  ],
- "sequence_id": 2.0,
- "shortcuts": [
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "format": "{} Refugees",
-   "label": "Enrollments",
-   "link_to": "Enrollment",
-   "stats_filter": "{\"workflow_state\":[\"=\",\"Approved\"],\"is_refugee\":[\"=\",\"Yes\"]}",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Attendances",
-   "link_to": "SCHOOL ATTENDANCE",
-   "stats_filter": "{\"workflow_state\":[\"=\",\"Approved\"]}",
-   "type": "DocType"
-  }
- ],
- "title": "PARTNERS"
+ "sequence_id": 6.1,
+ "shortcuts": [],
+ "title": "Refugee Info"
 }
